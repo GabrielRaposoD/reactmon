@@ -9,7 +9,7 @@ import {
 } from '@/systems/overworld/movement';
 
 import type { Direction } from '@/data/mapTypes';
-import { loadTexture } from '@/engine/SpriteSheet';
+import { loadSpriteTexture } from '@/engine/SpriteSheet';
 
 extend({ Sprite });
 
@@ -41,7 +41,7 @@ function PlayerSprite(): React.JSX.Element | null {
 
   useEffect(() => {
     let cancelled = false;
-    loadTexture('/assets/sprites/red.png').then((tex) => {
+    loadSpriteTexture('/assets/sprites/red.png').then((tex) => {
       if (!cancelled) setSheetTexture(tex);
     });
     return () => {

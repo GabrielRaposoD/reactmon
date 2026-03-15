@@ -1,7 +1,39 @@
-import { Assets, Spritesheet, Texture } from 'pixi.js';
+import { Assets, ImageSource, Spritesheet, Texture } from 'pixi.js';
 
 const loadedSheets = new Map<string, Spritesheet>();
 const loadedTextures = new Map<string, Texture>();
+
+/**
+ * Game Boy palette color 0 (white) is transparent for sprites.
+ * Post-processes a loaded PixiJS ImageSource by drawing its resource
+ * to a canvas and zeroing alpha for pixels matching the key color.
+ */
+function applyColorKey(
+  source: ImageSource,
+  r: number,
+  g: number,
+  b: number,
+): ImageSource {
+  const canvas = document.createElement('canvas');
+  canvas.width = source.width;
+  canvas.height = source.height;
+  const ctx = canvas.getContext('2d')!;
+
+  // ImageSource.resource is HTMLImageElement | ImageBitmap | HTMLCanvasElement etc.
+  // All are valid CanvasImageSource — drawImage handles them all.
+  ctx.drawImage(source.resource as CanvasImageSource, 0, 0);
+
+  const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+  const data = imageData.data;
+  for (let i = 0; i < data.length; i += 4) {
+    if (data[i] === r && data[i + 1] === g && data[i + 2] === b) {
+      data[i + 3] = 0;
+    }
+  }
+  ctx.putImageData(imageData, 0, 0);
+
+  return new ImageSource({ resource: canvas });
+}
 
 /** Load a spritesheet JSON (atlas) and cache it. */
 export async function loadSpriteSheet(jsonPath: string): Promise<Spritesheet> {
@@ -20,6 +52,23 @@ export async function loadTexture(path: string): Promise<Texture> {
 
   const texture = await Assets.load<Texture>(path);
   loadedTextures.set(path, texture);
+  return texture;
+}
+
+/**
+ * Load a sprite texture with Game Boy-style color-key transparency.
+ * White (255,255,255) pixels become transparent — matching how the
+ * original hardware treats palette color 0 for sprites.
+ */
+export async function loadSpriteTexture(path: string): Promise<Texture> {
+  const key = `sprite:${path}`;
+  const cached = loadedTextures.get(key);
+  if (cached) return cached;
+
+  const base = await Assets.load<Texture>(path);
+  const transparentSource = applyColorKey(base.source, 255, 255, 255);
+  const texture = new Texture({ source: transparentSource });
+  loadedTextures.set(key, texture);
   return texture;
 }
 
