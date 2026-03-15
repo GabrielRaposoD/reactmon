@@ -4,7 +4,7 @@ import {
   getCameraState,
   setCameraPosition,
   setViewportSize,
-} from '../engine/Camera';
+} from '@/engine/Camera';
 import { describe, expect, it } from 'vitest';
 
 describe('Camera', () => {

@@ -1,4 +1,4 @@
-import { destroyInput, initInput } from '../engine/InputManager';
+import { destroyInput, initInput } from '@/engine/InputManager';
 
 import { useEffect } from 'react';
 

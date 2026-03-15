@@ -3,7 +3,7 @@ import {
   startGameLoop,
   subscribeToGameLoop,
   type GameLoopCallback,
-} from '../engine/GameLoop';
+} from '@/engine/GameLoop';
 
 /**
  * Subscribe a callback to the global game loop.
