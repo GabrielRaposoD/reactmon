@@ -264,7 +264,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFARI_ZONE_NORTH"
+              "value": "SafariZoneNorth"
             },
             {
               "name": "destWarpId",
@@ -285,7 +285,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFARI_ZONE_NORTH"
+              "value": "SafariZoneNorth"
             },
             {
               "name": "destWarpId",
@@ -306,7 +306,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFARI_ZONE_NORTH"
+              "value": "SafariZoneNorth"
             },
             {
               "name": "destWarpId",
@@ -327,7 +327,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFARI_ZONE_NORTH"
+              "value": "SafariZoneNorth"
             },
             {
               "name": "destWarpId",
@@ -348,7 +348,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFARI_ZONE_CENTER"
+              "value": "SafariZoneCenter"
             },
             {
               "name": "destWarpId",
@@ -369,7 +369,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFARI_ZONE_CENTER"
+              "value": "SafariZoneCenter"
             },
             {
               "name": "destWarpId",
@@ -390,7 +390,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFARI_ZONE_SECRET_HOUSE"
+              "value": "SafariZoneSecretHouse"
             },
             {
               "name": "destWarpId",
@@ -411,7 +411,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFARI_ZONE_WEST_REST_HOUSE"
+              "value": "SafariZoneWestRestHouse"
             },
             {
               "name": "destWarpId",

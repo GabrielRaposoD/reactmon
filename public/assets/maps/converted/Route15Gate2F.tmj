@@ -85,7 +85,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROUTE_15_GATE_1F"
+              "value": "Route15Gate1F"
             },
             {
               "name": "destWarpId",

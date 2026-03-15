@@ -279,7 +279,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "POKEMON_MANSION_1F"
+              "value": "PokemonMansion1F"
             },
             {
               "name": "destWarpId",
@@ -300,7 +300,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "POKEMON_MANSION_3F"
+              "value": "PokemonMansion3F"
             },
             {
               "name": "destWarpId",
@@ -321,7 +321,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "POKEMON_MANSION_3F"
+              "value": "PokemonMansion3F"
             },
             {
               "name": "destWarpId",
@@ -342,7 +342,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "POKEMON_MANSION_3F"
+              "value": "PokemonMansion3F"
             },
             {
               "name": "destWarpId",

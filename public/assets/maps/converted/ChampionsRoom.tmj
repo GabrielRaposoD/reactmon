@@ -85,7 +85,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "LANCES_ROOM"
+              "value": "LancesRoom"
             },
             {
               "name": "destWarpId",
@@ -106,7 +106,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "LANCES_ROOM"
+              "value": "LancesRoom"
             },
             {
               "name": "destWarpId",
@@ -127,7 +127,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "HALL_OF_FAME"
+              "value": "HallOfFame"
             },
             {
               "name": "destWarpId",
@@ -148,7 +148,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "HALL_OF_FAME"
+              "value": "HallOfFame"
             },
             {
               "name": "destWarpId",

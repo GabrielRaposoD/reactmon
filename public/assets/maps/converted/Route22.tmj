@@ -249,7 +249,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROUTE_22_GATE"
+              "value": "Route22Gate"
             },
             {
               "name": "destWarpId",

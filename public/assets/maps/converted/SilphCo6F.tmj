@@ -186,7 +186,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SILPH_CO_7F"
+              "value": "SilphCo7F"
             },
             {
               "name": "destWarpId",
@@ -207,7 +207,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SILPH_CO_5F"
+              "value": "SilphCo5F"
             },
             {
               "name": "destWarpId",
@@ -228,7 +228,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SILPH_CO_ELEVATOR"
+              "value": "SilphCoElevator"
             },
             {
               "name": "destWarpId",
@@ -249,7 +249,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SILPH_CO_4F"
+              "value": "SilphCo4F"
             },
             {
               "name": "destWarpId",
@@ -270,7 +270,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SILPH_CO_2F"
+              "value": "SilphCo2F"
             },
             {
               "name": "destWarpId",

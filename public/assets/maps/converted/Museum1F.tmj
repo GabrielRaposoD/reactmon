@@ -193,7 +193,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "MUSEUM_2F"
+              "value": "Museum2F"
             },
             {
               "name": "destWarpId",

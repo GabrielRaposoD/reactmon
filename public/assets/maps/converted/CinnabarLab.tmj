@@ -147,7 +147,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CINNABAR_LAB_TRADE_ROOM"
+              "value": "CinnabarLabTradeRoom"
             },
             {
               "name": "destWarpId",
@@ -168,7 +168,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CINNABAR_LAB_METRONOME_ROOM"
+              "value": "CinnabarLabMetronomeRoom"
             },
             {
               "name": "destWarpId",
@@ -189,7 +189,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CINNABAR_LAB_FOSSIL_ROOM"
+              "value": "CinnabarLabFossilRoom"
             },
             {
               "name": "destWarpId",

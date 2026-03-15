@@ -159,7 +159,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "REDS_HOUSE_1F"
+              "value": "RedsHouse1F"
             },
             {
               "name": "destWarpId",
@@ -180,7 +180,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "BLUES_HOUSE"
+              "value": "BluesHouse"
             },
             {
               "name": "destWarpId",
@@ -201,7 +201,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "OAKS_LAB"
+              "value": "OaksLab"
             },
             {
               "name": "destWarpId",

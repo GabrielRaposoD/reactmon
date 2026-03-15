@@ -85,7 +85,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CINNABAR_LAB"
+              "value": "CinnabarLab"
             },
             {
               "name": "destWarpId",
@@ -106,7 +106,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CINNABAR_LAB"
+              "value": "CinnabarLab"
             },
             {
               "name": "destWarpId",

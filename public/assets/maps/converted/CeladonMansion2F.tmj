@@ -93,7 +93,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CELADON_MANSION_3F"
+              "value": "CeladonMansion3F"
             },
             {
               "name": "destWarpId",
@@ -114,7 +114,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CELADON_MANSION_1F"
+              "value": "CeladonMansion1F"
             },
             {
               "name": "destWarpId",
@@ -135,7 +135,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CELADON_MANSION_1F"
+              "value": "CeladonMansion1F"
             },
             {
               "name": "destWarpId",
@@ -156,7 +156,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CELADON_MANSION_3F"
+              "value": "CeladonMansion3F"
             },
             {
               "name": "destWarpId",

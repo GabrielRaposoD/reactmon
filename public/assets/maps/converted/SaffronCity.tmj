@@ -429,7 +429,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "COPYCATS_HOUSE_1F"
+              "value": "CopycatsHouse1F"
             },
             {
               "name": "destWarpId",
@@ -450,7 +450,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "FIGHTING_DOJO"
+              "value": "FightingDojo"
             },
             {
               "name": "destWarpId",
@@ -471,7 +471,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFFRON_GYM"
+              "value": "SaffronGym"
             },
             {
               "name": "destWarpId",
@@ -492,7 +492,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFFRON_PIDGEY_HOUSE"
+              "value": "SaffronPidgeyHouse"
             },
             {
               "name": "destWarpId",
@@ -513,7 +513,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFFRON_MART"
+              "value": "SaffronMart"
             },
             {
               "name": "destWarpId",
@@ -534,7 +534,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SILPH_CO_1F"
+              "value": "SilphCo1F"
             },
             {
               "name": "destWarpId",
@@ -555,7 +555,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFFRON_POKECENTER"
+              "value": "SaffronPokecenter"
             },
             {
               "name": "destWarpId",
@@ -576,7 +576,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "MR_PSYCHICS_HOUSE"
+              "value": "MrPsychicsHouse"
             },
             {
               "name": "destWarpId",

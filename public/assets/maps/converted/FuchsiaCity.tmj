@@ -429,7 +429,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "FUCHSIA_MART"
+              "value": "FuchsiaMart"
             },
             {
               "name": "destWarpId",
@@ -450,7 +450,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "FUCHSIA_BILLS_GRANDPAS_HOUSE"
+              "value": "FuchsiaBillsGrandpasHouse"
             },
             {
               "name": "destWarpId",
@@ -471,7 +471,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "FUCHSIA_POKECENTER"
+              "value": "FuchsiaPokecenter"
             },
             {
               "name": "destWarpId",
@@ -492,7 +492,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "WARDENS_HOUSE"
+              "value": "WardensHouse"
             },
             {
               "name": "destWarpId",
@@ -513,7 +513,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFARI_ZONE_GATE"
+              "value": "SafariZoneGate"
             },
             {
               "name": "destWarpId",
@@ -534,7 +534,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "FUCHSIA_GYM"
+              "value": "FuchsiaGym"
             },
             {
               "name": "destWarpId",
@@ -555,7 +555,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "FUCHSIA_MEETING_ROOM"
+              "value": "FuchsiaMeetingRoom"
             },
             {
               "name": "destWarpId",
@@ -576,7 +576,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "FUCHSIA_GOOD_ROD_HOUSE"
+              "value": "FuchsiaGoodRodHouse"
             },
             {
               "name": "destWarpId",
@@ -597,7 +597,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "FUCHSIA_GOOD_ROD_HOUSE"
+              "value": "FuchsiaGoodRodHouse"
             },
             {
               "name": "destWarpId",

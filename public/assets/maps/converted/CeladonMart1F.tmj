@@ -193,7 +193,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CELADON_MART_2F"
+              "value": "CeladonMart2F"
             },
             {
               "name": "destWarpId",
@@ -214,7 +214,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CELADON_MART_ELEVATOR"
+              "value": "CeladonMartElevator"
             },
             {
               "name": "destWarpId",

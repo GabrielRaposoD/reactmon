@@ -85,7 +85,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFARI_ZONE_CENTER"
+              "value": "SafariZoneCenter"
             },
             {
               "name": "destWarpId",
@@ -106,7 +106,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFARI_ZONE_CENTER"
+              "value": "SafariZoneCenter"
             },
             {
               "name": "destWarpId",

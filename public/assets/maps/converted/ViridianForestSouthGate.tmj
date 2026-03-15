@@ -89,7 +89,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VIRIDIAN_FOREST"
+              "value": "ViridianForest"
             },
             {
               "name": "destWarpId",
@@ -110,7 +110,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VIRIDIAN_FOREST"
+              "value": "ViridianForest"
             },
             {
               "name": "destWarpId",

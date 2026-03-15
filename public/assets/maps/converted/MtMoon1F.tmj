@@ -471,7 +471,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "MT_MOON_B1F"
+              "value": "MtMoonB1F"
             },
             {
               "name": "destWarpId",
@@ -492,7 +492,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "MT_MOON_B1F"
+              "value": "MtMoonB1F"
             },
             {
               "name": "destWarpId",
@@ -513,7 +513,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "MT_MOON_B1F"
+              "value": "MtMoonB1F"
             },
             {
               "name": "destWarpId",

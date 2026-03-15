@@ -249,7 +249,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VERMILION_DOCK"
+              "value": "VermilionDock"
             },
             {
               "name": "destWarpId",
@@ -270,7 +270,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VERMILION_DOCK"
+              "value": "VermilionDock"
             },
             {
               "name": "destWarpId",
@@ -291,7 +291,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SS_ANNE_1F_ROOMS"
+              "value": "SSAnne1FRooms"
             },
             {
               "name": "destWarpId",
@@ -312,7 +312,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SS_ANNE_1F_ROOMS"
+              "value": "SSAnne1FRooms"
             },
             {
               "name": "destWarpId",
@@ -333,7 +333,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SS_ANNE_1F_ROOMS"
+              "value": "SSAnne1FRooms"
             },
             {
               "name": "destWarpId",
@@ -354,7 +354,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SS_ANNE_1F_ROOMS"
+              "value": "SSAnne1FRooms"
             },
             {
               "name": "destWarpId",
@@ -375,7 +375,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SS_ANNE_1F_ROOMS"
+              "value": "SSAnne1FRooms"
             },
             {
               "name": "destWarpId",
@@ -396,7 +396,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SS_ANNE_1F_ROOMS"
+              "value": "SSAnne1FRooms"
             },
             {
               "name": "destWarpId",
@@ -417,7 +417,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SS_ANNE_2F"
+              "value": "SSAnne2F"
             },
             {
               "name": "destWarpId",
@@ -438,7 +438,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SS_ANNE_B1F"
+              "value": "SSAnneB1F"
             },
             {
               "name": "destWarpId",
@@ -459,7 +459,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SS_ANNE_KITCHEN"
+              "value": "SSAnneKitchen"
             },
             {
               "name": "destWarpId",

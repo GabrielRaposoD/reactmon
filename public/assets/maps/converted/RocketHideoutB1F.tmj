@@ -279,7 +279,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROCKET_HIDEOUT_B2F"
+              "value": "RocketHideoutB2F"
             },
             {
               "name": "destWarpId",
@@ -300,7 +300,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "GAME_CORNER"
+              "value": "GameCorner"
             },
             {
               "name": "destWarpId",
@@ -321,7 +321,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROCKET_HIDEOUT_ELEVATOR"
+              "value": "RocketHideoutElevator"
             },
             {
               "name": "destWarpId",
@@ -342,7 +342,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROCKET_HIDEOUT_B2F"
+              "value": "RocketHideoutB2F"
             },
             {
               "name": "destWarpId",
@@ -363,7 +363,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROCKET_HIDEOUT_ELEVATOR"
+              "value": "RocketHideoutElevator"
             },
             {
               "name": "destWarpId",

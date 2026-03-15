@@ -446,6 +446,7 @@ function generateTmj(
   renderedTileset: RenderedTileset,
   passableTileIds: Set<number>,
   objects: MapObjects,
+  constantToName: Map<string, string>,
 ): object {
   // Ground layer: block IDs from .blk, converted to 1-indexed Tiled GIDs
   const groundData: number[] = [];
@@ -471,6 +472,12 @@ function generateTmj(
   // The map is in blocks (32px). Object x,y are in step coordinates.
   // Tiled uses pixel coordinates, so multiply by 16.
   for (const warp of objects.warps) {
+    // Resolve UPPER_SNAKE_CASE constant to PascalCase filename.
+    // LAST_MAP is a special sentinel meaning "return to previous map".
+    const resolvedDest =
+      warp.destMap === 'LAST_MAP'
+        ? 'LAST_MAP'
+        : (constantToName.get(warp.destMap) ?? warp.destMap);
     tiledObjects.push({
       id: objectId++,
       name: `warp_${warp.destMap}`,
@@ -480,7 +487,7 @@ function generateTmj(
       width: 16,
       height: 16,
       properties: [
-        { name: 'destMap', type: 'string', value: warp.destMap },
+        { name: 'destMap', type: 'string', value: resolvedDest },
         { name: 'destWarpId', type: 'int', value: warp.destWarpId },
       ],
     });
@@ -633,7 +640,18 @@ function main(): void {
     return result;
   }
 
-  // 5. Convert each map
+  // 5. Build constant → PascalCase name lookup for warp resolution
+  const constantToName = new Map<string, string>();
+  for (const headerFile of headerFiles) {
+    const headerPath = join(headersDir, headerFile);
+    const header = parseMapHeader(headerPath);
+    if (header) {
+      constantToName.set(header.constant, header.name);
+    }
+  }
+  console.log(`Built ${constantToName.size} constant→name mappings`);
+
+  // 6. Convert each map
   const convertedDir = join(ASSETS_DIR, 'maps/converted');
   mkdirSync(convertedDir, { recursive: true });
 
@@ -707,6 +725,7 @@ function main(): void {
       renderedTileset,
       passableTileIds,
       objects,
+      constantToName,
     );
 
     const tmjPath = join(convertedDir, `${header.name}.tmj`);

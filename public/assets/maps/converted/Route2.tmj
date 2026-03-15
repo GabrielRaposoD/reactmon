@@ -429,7 +429,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "DIGLETTS_CAVE_ROUTE_2"
+              "value": "DiglettsCaveRoute2"
             },
             {
               "name": "destWarpId",
@@ -450,7 +450,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VIRIDIAN_FOREST_NORTH_GATE"
+              "value": "ViridianForestNorthGate"
             },
             {
               "name": "destWarpId",
@@ -471,7 +471,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROUTE_2_TRADE_HOUSE"
+              "value": "Route2TradeHouse"
             },
             {
               "name": "destWarpId",
@@ -492,7 +492,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROUTE_2_GATE"
+              "value": "Route2Gate"
             },
             {
               "name": "destWarpId",
@@ -513,7 +513,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROUTE_2_GATE"
+              "value": "Route2Gate"
             },
             {
               "name": "destWarpId",
@@ -534,7 +534,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VIRIDIAN_FOREST_SOUTH_GATE"
+              "value": "ViridianForestSouthGate"
             },
             {
               "name": "destWarpId",
@@ -555,7 +555,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROUTE_2_GATE"
+              "value": "Route2Gate"
             },
             {
               "name": "destWarpId",

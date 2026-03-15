@@ -249,7 +249,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROUTE_6_GATE"
+              "value": "Route6Gate"
             },
             {
               "name": "destWarpId",
@@ -270,7 +270,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROUTE_6_GATE"
+              "value": "Route6Gate"
             },
             {
               "name": "destWarpId",
@@ -291,7 +291,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROUTE_6_GATE"
+              "value": "Route6Gate"
             },
             {
               "name": "destWarpId",
@@ -312,7 +312,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "UNDERGROUND_PATH_ROUTE_6"
+              "value": "UndergroundPathRoute6"
             },
             {
               "name": "destWarpId",

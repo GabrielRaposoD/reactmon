@@ -246,7 +246,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CERULEAN_CAVE_2F"
+              "value": "CeruleanCave2F"
             },
             {
               "name": "destWarpId",
@@ -267,7 +267,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CERULEAN_CAVE_2F"
+              "value": "CeruleanCave2F"
             },
             {
               "name": "destWarpId",
@@ -288,7 +288,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CERULEAN_CAVE_2F"
+              "value": "CeruleanCave2F"
             },
             {
               "name": "destWarpId",
@@ -309,7 +309,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CERULEAN_CAVE_2F"
+              "value": "CeruleanCave2F"
             },
             {
               "name": "destWarpId",
@@ -330,7 +330,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CERULEAN_CAVE_2F"
+              "value": "CeruleanCave2F"
             },
             {
               "name": "destWarpId",
@@ -351,7 +351,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CERULEAN_CAVE_2F"
+              "value": "CeruleanCave2F"
             },
             {
               "name": "destWarpId",
@@ -372,7 +372,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CERULEAN_CAVE_B1F"
+              "value": "CeruleanCaveB1F"
             },
             {
               "name": "destWarpId",

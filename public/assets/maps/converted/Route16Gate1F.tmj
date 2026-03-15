@@ -265,7 +265,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROUTE_16_GATE_2F"
+              "value": "Route16Gate2F"
             },
             {
               "name": "destWarpId",

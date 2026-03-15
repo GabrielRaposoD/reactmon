@@ -85,7 +85,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "REDS_HOUSE_1F"
+              "value": "RedsHouse1F"
             },
             {
               "name": "destWarpId",
@@ -106,7 +106,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "MT_MOON_B2F"
+              "value": "MtMoonB2F"
             },
             {
               "name": "destWarpId",
@@ -127,7 +127,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROCKET_HIDEOUT_ELEVATOR"
+              "value": "RocketHideoutElevator"
             },
             {
               "name": "destWarpId",
@@ -148,7 +148,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "POKEMON_TOWER_7F"
+              "value": "PokemonTower7F"
             },
             {
               "name": "destWarpId",
@@ -169,7 +169,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SILPH_CO_11F"
+              "value": "SilphCo11F"
             },
             {
               "name": "destWarpId",

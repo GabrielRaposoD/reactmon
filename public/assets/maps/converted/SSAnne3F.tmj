@@ -99,7 +99,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SS_ANNE_BOW"
+              "value": "SSAnneBow"
             },
             {
               "name": "destWarpId",
@@ -120,7 +120,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SS_ANNE_2F"
+              "value": "SSAnne2F"
             },
             {
               "name": "destWarpId",

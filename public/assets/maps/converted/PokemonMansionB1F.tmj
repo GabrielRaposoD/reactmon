@@ -279,7 +279,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "POKEMON_MANSION_1F"
+              "value": "PokemonMansion1F"
             },
             {
               "name": "destWarpId",

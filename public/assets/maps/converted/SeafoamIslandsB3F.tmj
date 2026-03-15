@@ -204,7 +204,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SEAFOAM_ISLANDS_B2F"
+              "value": "SeafoamIslandsB2F"
             },
             {
               "name": "destWarpId",
@@ -225,7 +225,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SEAFOAM_ISLANDS_B4F"
+              "value": "SeafoamIslandsB4F"
             },
             {
               "name": "destWarpId",
@@ -246,7 +246,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SEAFOAM_ISLANDS_B4F"
+              "value": "SeafoamIslandsB4F"
             },
             {
               "name": "destWarpId",
@@ -267,7 +267,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SEAFOAM_ISLANDS_B2F"
+              "value": "SeafoamIslandsB2F"
             },
             {
               "name": "destWarpId",
@@ -288,7 +288,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SEAFOAM_ISLANDS_B2F"
+              "value": "SeafoamIslandsB2F"
             },
             {
               "name": "destWarpId",
@@ -309,7 +309,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SEAFOAM_ISLANDS_B4F"
+              "value": "SeafoamIslandsB4F"
             },
             {
               "name": "destWarpId",
@@ -330,7 +330,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SEAFOAM_ISLANDS_B4F"
+              "value": "SeafoamIslandsB4F"
             },
             {
               "name": "destWarpId",

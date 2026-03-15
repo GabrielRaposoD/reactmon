@@ -109,7 +109,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CELADON_MART_5F"
+              "value": "CeladonMart5F"
             },
             {
               "name": "destWarpId",

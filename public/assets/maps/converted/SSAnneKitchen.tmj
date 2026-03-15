@@ -125,7 +125,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SS_ANNE_1F"
+              "value": "SSAnne1F"
             },
             {
               "name": "destWarpId",

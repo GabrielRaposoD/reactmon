@@ -173,7 +173,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROUTE_15_GATE_2F"
+              "value": "Route15Gate2F"
             },
             {
               "name": "destWarpId",

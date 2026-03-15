@@ -519,7 +519,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CELADON_MART_1F"
+              "value": "CeladonMart1F"
             },
             {
               "name": "destWarpId",
@@ -540,7 +540,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CELADON_MART_1F"
+              "value": "CeladonMart1F"
             },
             {
               "name": "destWarpId",
@@ -561,7 +561,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CELADON_MANSION_1F"
+              "value": "CeladonMansion1F"
             },
             {
               "name": "destWarpId",
@@ -582,7 +582,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CELADON_MANSION_1F"
+              "value": "CeladonMansion1F"
             },
             {
               "name": "destWarpId",
@@ -603,7 +603,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CELADON_MANSION_1F"
+              "value": "CeladonMansion1F"
             },
             {
               "name": "destWarpId",
@@ -624,7 +624,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CELADON_POKECENTER"
+              "value": "CeladonPokecenter"
             },
             {
               "name": "destWarpId",
@@ -645,7 +645,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CELADON_GYM"
+              "value": "CeladonGym"
             },
             {
               "name": "destWarpId",
@@ -666,7 +666,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "GAME_CORNER"
+              "value": "GameCorner"
             },
             {
               "name": "destWarpId",
@@ -687,7 +687,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CELADON_MART_5F"
+              "value": "CeladonMart5F"
             },
             {
               "name": "destWarpId",
@@ -708,7 +708,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "GAME_CORNER_PRIZE_ROOM"
+              "value": "GameCornerPrizeRoom"
             },
             {
               "name": "destWarpId",
@@ -729,7 +729,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CELADON_DINER"
+              "value": "CeladonDiner"
             },
             {
               "name": "destWarpId",
@@ -750,7 +750,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CELADON_CHIEF_HOUSE"
+              "value": "CeladonChiefHouse"
             },
             {
               "name": "destWarpId",
@@ -771,7 +771,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CELADON_HOTEL"
+              "value": "CeladonHotel"
             },
             {
               "name": "destWarpId",

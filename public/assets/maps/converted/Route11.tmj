@@ -339,7 +339,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROUTE_11_GATE_1F"
+              "value": "Route11Gate1F"
             },
             {
               "name": "destWarpId",
@@ -360,7 +360,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROUTE_11_GATE_1F"
+              "value": "Route11Gate1F"
             },
             {
               "name": "destWarpId",
@@ -381,7 +381,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROUTE_11_GATE_1F"
+              "value": "Route11Gate1F"
             },
             {
               "name": "destWarpId",
@@ -402,7 +402,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROUTE_11_GATE_1F"
+              "value": "Route11Gate1F"
             },
             {
               "name": "destWarpId",
@@ -423,7 +423,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "DIGLETTS_CAVE_ROUTE_11"
+              "value": "DiglettsCaveRoute11"
             },
             {
               "name": "destWarpId",

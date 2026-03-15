@@ -159,7 +159,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "LAVENDER_POKECENTER"
+              "value": "LavenderPokecenter"
             },
             {
               "name": "destWarpId",
@@ -180,7 +180,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "POKEMON_TOWER_1F"
+              "value": "PokemonTower1F"
             },
             {
               "name": "destWarpId",
@@ -201,7 +201,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "MR_FUJIS_HOUSE"
+              "value": "MrFujisHouse"
             },
             {
               "name": "destWarpId",
@@ -222,7 +222,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "LAVENDER_MART"
+              "value": "LavenderMart"
             },
             {
               "name": "destWarpId",
@@ -243,7 +243,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "LAVENDER_CUBONE_HOUSE"
+              "value": "LavenderCuboneHouse"
             },
             {
               "name": "destWarpId",
@@ -264,7 +264,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "NAME_RATERS_HOUSE"
+              "value": "NameRatersHouse"
             },
             {
               "name": "destWarpId",

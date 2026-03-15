@@ -429,7 +429,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "DIGLETTS_CAVE_ROUTE_2"
+              "value": "DiglettsCaveRoute2"
             },
             {
               "name": "destWarpId",
@@ -450,7 +450,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "DIGLETTS_CAVE_ROUTE_11"
+              "value": "DiglettsCaveRoute11"
             },
             {
               "name": "destWarpId",

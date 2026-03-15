@@ -477,7 +477,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VIRIDIAN_FOREST_NORTH_GATE"
+              "value": "ViridianForestNorthGate"
             },
             {
               "name": "destWarpId",
@@ -498,7 +498,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VIRIDIAN_FOREST_NORTH_GATE"
+              "value": "ViridianForestNorthGate"
             },
             {
               "name": "destWarpId",
@@ -519,7 +519,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VIRIDIAN_FOREST_SOUTH_GATE"
+              "value": "ViridianForestSouthGate"
             },
             {
               "name": "destWarpId",
@@ -540,7 +540,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VIRIDIAN_FOREST_SOUTH_GATE"
+              "value": "ViridianForestSouthGate"
             },
             {
               "name": "destWarpId",
@@ -561,7 +561,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VIRIDIAN_FOREST_SOUTH_GATE"
+              "value": "ViridianForestSouthGate"
             },
             {
               "name": "destWarpId",
@@ -582,7 +582,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VIRIDIAN_FOREST_SOUTH_GATE"
+              "value": "ViridianForestSouthGate"
             },
             {
               "name": "destWarpId",

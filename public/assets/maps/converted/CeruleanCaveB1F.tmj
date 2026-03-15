@@ -204,7 +204,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CERULEAN_CAVE_1F"
+              "value": "CeruleanCave1F"
             },
             {
               "name": "destWarpId",

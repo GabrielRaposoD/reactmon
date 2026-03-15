@@ -339,7 +339,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SUMMER_BEACH_HOUSE"
+              "value": "SummerBeachHouse"
             },
             {
               "name": "destWarpId",

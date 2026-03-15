@@ -238,7 +238,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "AGATHAS_ROOM"
+              "value": "AgathasRoom"
             },
             {
               "name": "destWarpId",
@@ -259,7 +259,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CHAMPIONS_ROOM"
+              "value": "ChampionsRoom"
             },
             {
               "name": "destWarpId",
@@ -280,7 +280,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CHAMPIONS_ROOM"
+              "value": "ChampionsRoom"
             },
             {
               "name": "destWarpId",

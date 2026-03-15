@@ -249,7 +249,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROUTE_5_GATE"
+              "value": "Route5Gate"
             },
             {
               "name": "destWarpId",
@@ -270,7 +270,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROUTE_5_GATE"
+              "value": "Route5Gate"
             },
             {
               "name": "destWarpId",
@@ -291,7 +291,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROUTE_5_GATE"
+              "value": "Route5Gate"
             },
             {
               "name": "destWarpId",
@@ -312,7 +312,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "UNDERGROUND_PATH_ROUTE_5"
+              "value": "UndergroundPathRoute5"
             },
             {
               "name": "destWarpId",
@@ -333,7 +333,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "DAYCARE"
+              "value": "Daycare"
             },
             {
               "name": "destWarpId",

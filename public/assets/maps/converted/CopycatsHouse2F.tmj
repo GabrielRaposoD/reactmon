@@ -85,7 +85,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "COPYCATS_HOUSE_1F"
+              "value": "CopycatsHouse1F"
             },
             {
               "name": "destWarpId",

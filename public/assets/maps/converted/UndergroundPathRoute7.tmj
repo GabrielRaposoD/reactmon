@@ -127,7 +127,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "UNDERGROUND_PATH_WEST_EAST"
+              "value": "UndergroundPathWestEast"
             },
             {
               "name": "destWarpId",

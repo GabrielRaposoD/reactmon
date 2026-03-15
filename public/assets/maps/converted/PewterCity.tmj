@@ -429,7 +429,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "MUSEUM_1F"
+              "value": "Museum1F"
             },
             {
               "name": "destWarpId",
@@ -450,7 +450,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "MUSEUM_1F"
+              "value": "Museum1F"
             },
             {
               "name": "destWarpId",
@@ -471,7 +471,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "PEWTER_GYM"
+              "value": "PewterGym"
             },
             {
               "name": "destWarpId",
@@ -492,7 +492,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "PEWTER_NIDORAN_HOUSE"
+              "value": "PewterNidoranHouse"
             },
             {
               "name": "destWarpId",
@@ -513,7 +513,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "PEWTER_MART"
+              "value": "PewterMart"
             },
             {
               "name": "destWarpId",
@@ -534,7 +534,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "PEWTER_SPEECH_HOUSE"
+              "value": "PewterSpeechHouse"
             },
             {
               "name": "destWarpId",
@@ -555,7 +555,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "PEWTER_POKECENTER"
+              "value": "PewterPokecenter"
             },
             {
               "name": "destWarpId",

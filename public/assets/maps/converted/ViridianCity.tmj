@@ -429,7 +429,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VIRIDIAN_POKECENTER"
+              "value": "ViridianPokecenter"
             },
             {
               "name": "destWarpId",
@@ -450,7 +450,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VIRIDIAN_MART"
+              "value": "ViridianMart"
             },
             {
               "name": "destWarpId",
@@ -471,7 +471,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VIRIDIAN_SCHOOL_HOUSE"
+              "value": "ViridianSchoolHouse"
             },
             {
               "name": "destWarpId",
@@ -492,7 +492,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VIRIDIAN_NICKNAME_HOUSE"
+              "value": "ViridianNicknameHouse"
             },
             {
               "name": "destWarpId",
@@ -513,7 +513,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VIRIDIAN_GYM"
+              "value": "ViridianGym"
             },
             {
               "name": "destWarpId",

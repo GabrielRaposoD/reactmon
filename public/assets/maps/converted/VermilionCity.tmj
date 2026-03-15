@@ -429,7 +429,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VERMILION_POKECENTER"
+              "value": "VermilionPokecenter"
             },
             {
               "name": "destWarpId",
@@ -450,7 +450,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "POKEMON_FAN_CLUB"
+              "value": "PokemonFanClub"
             },
             {
               "name": "destWarpId",
@@ -471,7 +471,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VERMILION_MART"
+              "value": "VermilionMart"
             },
             {
               "name": "destWarpId",
@@ -492,7 +492,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VERMILION_GYM"
+              "value": "VermilionGym"
             },
             {
               "name": "destWarpId",
@@ -513,7 +513,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VERMILION_PIDGEY_HOUSE"
+              "value": "VermilionPidgeyHouse"
             },
             {
               "name": "destWarpId",
@@ -534,7 +534,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VERMILION_DOCK"
+              "value": "VermilionDock"
             },
             {
               "name": "destWarpId",
@@ -555,7 +555,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VERMILION_DOCK"
+              "value": "VermilionDock"
             },
             {
               "name": "destWarpId",
@@ -576,7 +576,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VERMILION_TRADE_HOUSE"
+              "value": "VermilionTradeHouse"
             },
             {
               "name": "destWarpId",
@@ -597,7 +597,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VERMILION_OLD_ROD_HOUSE"
+              "value": "VermilionOldRodHouse"
             },
             {
               "name": "destWarpId",

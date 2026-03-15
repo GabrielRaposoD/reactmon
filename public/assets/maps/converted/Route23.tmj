@@ -789,7 +789,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROUTE_22_GATE"
+              "value": "Route22Gate"
             },
             {
               "name": "destWarpId",
@@ -810,7 +810,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROUTE_22_GATE"
+              "value": "Route22Gate"
             },
             {
               "name": "destWarpId",
@@ -831,7 +831,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VICTORY_ROAD_1F"
+              "value": "VictoryRoad1F"
             },
             {
               "name": "destWarpId",
@@ -852,7 +852,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "VICTORY_ROAD_2F"
+              "value": "VictoryRoad2F"
             },
             {
               "name": "destWarpId",

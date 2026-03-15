@@ -429,7 +429,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CERULEAN_TRASHED_HOUSE"
+              "value": "CeruleanTrashedHouse"
             },
             {
               "name": "destWarpId",
@@ -450,7 +450,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CERULEAN_MELANIES_HOUSE"
+              "value": "CeruleanMelaniesHouse"
             },
             {
               "name": "destWarpId",
@@ -471,7 +471,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CERULEAN_POKECENTER"
+              "value": "CeruleanPokecenter"
             },
             {
               "name": "destWarpId",
@@ -492,7 +492,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CERULEAN_GYM"
+              "value": "CeruleanGym"
             },
             {
               "name": "destWarpId",
@@ -513,7 +513,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "BIKE_SHOP"
+              "value": "BikeShop"
             },
             {
               "name": "destWarpId",
@@ -534,7 +534,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CERULEAN_MART"
+              "value": "CeruleanMart"
             },
             {
               "name": "destWarpId",
@@ -555,7 +555,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CERULEAN_CAVE_1F"
+              "value": "CeruleanCave1F"
             },
             {
               "name": "destWarpId",
@@ -576,7 +576,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CERULEAN_TRASHED_HOUSE"
+              "value": "CeruleanTrashedHouse"
             },
             {
               "name": "destWarpId",
@@ -597,7 +597,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CERULEAN_BADGE_HOUSE"
+              "value": "CeruleanBadgeHouse"
             },
             {
               "name": "destWarpId",
@@ -618,7 +618,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CERULEAN_BADGE_HOUSE"
+              "value": "CeruleanBadgeHouse"
             },
             {
               "name": "destWarpId",

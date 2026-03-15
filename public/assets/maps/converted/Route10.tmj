@@ -429,7 +429,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROCK_TUNNEL_POKECENTER"
+              "value": "RockTunnelPokecenter"
             },
             {
               "name": "destWarpId",
@@ -450,7 +450,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROCK_TUNNEL_1F"
+              "value": "RockTunnel1F"
             },
             {
               "name": "destWarpId",
@@ -471,7 +471,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROCK_TUNNEL_1F"
+              "value": "RockTunnel1F"
             },
             {
               "name": "destWarpId",
@@ -492,7 +492,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "POWER_PLANT"
+              "value": "PowerPlant"
             },
             {
               "name": "destWarpId",

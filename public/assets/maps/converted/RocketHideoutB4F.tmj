@@ -249,7 +249,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROCKET_HIDEOUT_B3F"
+              "value": "RocketHideoutB3F"
             },
             {
               "name": "destWarpId",
@@ -270,7 +270,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROCKET_HIDEOUT_ELEVATOR"
+              "value": "RocketHideoutElevator"
             },
             {
               "name": "destWarpId",
@@ -291,7 +291,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "ROCKET_HIDEOUT_ELEVATOR"
+              "value": "RocketHideoutElevator"
             },
             {
               "name": "destWarpId",

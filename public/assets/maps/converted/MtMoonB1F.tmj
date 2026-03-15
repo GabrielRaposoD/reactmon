@@ -265,7 +265,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "MT_MOON_1F"
+              "value": "MtMoon1F"
             },
             {
               "name": "destWarpId",
@@ -286,7 +286,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "MT_MOON_B2F"
+              "value": "MtMoonB2F"
             },
             {
               "name": "destWarpId",
@@ -307,7 +307,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "MT_MOON_1F"
+              "value": "MtMoon1F"
             },
             {
               "name": "destWarpId",
@@ -328,7 +328,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "MT_MOON_1F"
+              "value": "MtMoon1F"
             },
             {
               "name": "destWarpId",
@@ -349,7 +349,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "MT_MOON_B2F"
+              "value": "MtMoonB2F"
             },
             {
               "name": "destWarpId",
@@ -370,7 +370,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "MT_MOON_B2F"
+              "value": "MtMoonB2F"
             },
             {
               "name": "destWarpId",
@@ -391,7 +391,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "MT_MOON_B2F"
+              "value": "MtMoonB2F"
             },
             {
               "name": "destWarpId",

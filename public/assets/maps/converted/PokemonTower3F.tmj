@@ -159,7 +159,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "POKEMON_TOWER_2F"
+              "value": "PokemonTower2F"
             },
             {
               "name": "destWarpId",
@@ -180,7 +180,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "POKEMON_TOWER_4F"
+              "value": "PokemonTower4F"
             },
             {
               "name": "destWarpId",

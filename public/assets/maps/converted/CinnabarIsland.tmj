@@ -159,7 +159,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "POKEMON_MANSION_1F"
+              "value": "PokemonMansion1F"
             },
             {
               "name": "destWarpId",
@@ -180,7 +180,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CINNABAR_GYM"
+              "value": "CinnabarGym"
             },
             {
               "name": "destWarpId",
@@ -201,7 +201,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CINNABAR_LAB"
+              "value": "CinnabarLab"
             },
             {
               "name": "destWarpId",
@@ -222,7 +222,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CINNABAR_POKECENTER"
+              "value": "CinnabarPokecenter"
             },
             {
               "name": "destWarpId",
@@ -243,7 +243,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "CINNABAR_MART"
+              "value": "CinnabarMart"
             },
             {
               "name": "destWarpId",

@@ -429,7 +429,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFARI_ZONE_WEST"
+              "value": "SafariZoneWest"
             },
             {
               "name": "destWarpId",
@@ -450,7 +450,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFARI_ZONE_WEST"
+              "value": "SafariZoneWest"
             },
             {
               "name": "destWarpId",
@@ -471,7 +471,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFARI_ZONE_WEST"
+              "value": "SafariZoneWest"
             },
             {
               "name": "destWarpId",
@@ -492,7 +492,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFARI_ZONE_WEST"
+              "value": "SafariZoneWest"
             },
             {
               "name": "destWarpId",
@@ -513,7 +513,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFARI_ZONE_CENTER"
+              "value": "SafariZoneCenter"
             },
             {
               "name": "destWarpId",
@@ -534,7 +534,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFARI_ZONE_CENTER"
+              "value": "SafariZoneCenter"
             },
             {
               "name": "destWarpId",
@@ -555,7 +555,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFARI_ZONE_EAST"
+              "value": "SafariZoneEast"
             },
             {
               "name": "destWarpId",
@@ -576,7 +576,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFARI_ZONE_EAST"
+              "value": "SafariZoneEast"
             },
             {
               "name": "destWarpId",
@@ -597,7 +597,7 @@
             {
               "name": "destMap",
               "type": "string",
-              "value": "SAFARI_ZONE_NORTH_REST_HOUSE"
+              "value": "SafariZoneNorthRestHouse"
             },
             {
               "name": "destWarpId",
