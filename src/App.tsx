@@ -1,11 +1,11 @@
 import './App.css';
 
-import { Application, extend } from '@pixi/react';
+import { Application, extend, useTick } from '@pixi/react';
 import { Container, Graphics } from 'pixi.js';
 import { clearInputFrame, isHeld } from './engine/InputManager';
 
 import { updateCurrentScene } from './engine/SceneManager';
-import { useCallback } from 'react';
+import { useCallback, useRef } from 'react';
 import { useGameLoop } from './hooks/useGameLoop';
 import { useInput } from './hooks/useInput';
 
@@ -15,25 +15,23 @@ const GAME_WIDTH = 240;
 const GAME_HEIGHT = 160;
 
 function GameWorld() {
+  const inputGfxRef = useRef<Graphics>(null);
+
   useGameLoop((deltaMs) => {
     updateCurrentScene(deltaMs);
     clearInputFrame();
   });
 
-  const drawTestRect = useCallback((g: Graphics) => {
-    g.clear();
-    g.rect(100, 60, 40, 40);
-    g.fill({ color: 0x00ff88 });
-  }, []);
+  useTick(() => {
+    const g = inputGfxRef.current;
+    if (!g) return;
 
-  const drawInputIndicator = useCallback((g: Graphics) => {
     g.clear();
     const baseX = 10;
     const baseY = 10;
     const size = 6;
     const gap = 8;
 
-    // Draw direction indicators
     const directions: Array<{
       action: 'up' | 'down' | 'left' | 'right';
       dx: number;
@@ -50,12 +48,18 @@ function GameWorld() {
       g.rect(baseX + dx, baseY + dy, size, size);
       g.fill({ color });
     }
+  });
+
+  const drawTestRect = useCallback((g: Graphics) => {
+    g.clear();
+    g.rect(100, 60, 40, 40);
+    g.fill({ color: 0x00ff88 });
   }, []);
 
   return (
     <pixiContainer>
       <pixiGraphics draw={drawTestRect} />
-      <pixiGraphics draw={drawInputIndicator} />
+      <pixiGraphics ref={inputGfxRef} draw={() => {}} />
     </pixiContainer>
   );
 }
