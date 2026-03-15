@@ -1,73 +1,69 @@
-# React + TypeScript + Vite
+# Reactmon
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A browser-based recreation of Pokémon Generation 1, built with React and TypeScript.
 
-Currently, two official plugins are available:
+Single-player, client-side only — no backend, no server, no database.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+- **Vite + React 19 + TypeScript** — scaffolding and build
+- **PixiJS 8 + @pixi/react 8** — canvas-based game rendering (WebGL/WebGPU)
+- **Zustand** — state management, split by domain
+- **Vitest** — unit testing for pure logic modules
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+pnpm install
+pnpm dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Scripts
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| Command        | Description              |
+| -------------- | ------------------------ |
+| `pnpm dev`     | Start development server |
+| `pnpm build`   | Production build         |
+| `pnpm test`    | Run unit tests           |
+| `pnpm preview` | Preview production build |
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Project Structure
+
 ```
+src/
+  engine/       Core game engine (loop, input, scenes, camera, sprite sheets)
+  data/         Static JSON data files and TypeScript types
+  systems/      Isolated game systems (overworld, battle, pokemon, etc.)
+  stores/       Zustand stores
+  scenes/       Scene components (React + PixiJS)
+  components/   Reusable React DOM UI components
+  hooks/        Custom React hooks
+  utils/        Shared utility functions
+  tests/        Vitest unit tests
+public/
+  assets/       Game assets (sprites, tilesets, maps)
+```
+
+## Legal & Credits
+
+This is an unofficial, non-commercial fan project for educational and personal
+use only. It is **not affiliated with, endorsed by, or connected to Nintendo,
+Game Freak, Creatures Inc., or The Pokémon Company**.
+
+### Game Assets
+
+All graphical assets (sprites, tilesets, map data) under `public/assets/` are
+the intellectual property of **Nintendo**, **Game Freak**, and **Creatures Inc.**
+
+> Pokémon © Nintendo / Game Freak / Creatures Inc.
+
+Assets were sourced from the [pokeyellow disassembly](https://github.com/pret/pokeyellow)
+by the [pret](https://github.com/pret) community — a volunteer reverse-engineering effort.
+Full attribution details in [ASSETS_NOTICE.md](ASSETS_NOTICE.md).
+
+### Source Code
+
+The original source code of this project is licensed under the
+[MIT License](LICENSE).
+
+**Do not use the game assets for any commercial purpose.**

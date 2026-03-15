@@ -3,9 +3,9 @@ import './App.css';
 import { Application, extend, useTick } from '@pixi/react';
 import { Container, Graphics } from 'pixi.js';
 import { clearInputFrame, isHeld } from './engine/InputManager';
+import { useCallback, useRef } from 'react';
 
 import { updateCurrentScene } from './engine/SceneManager';
-import { useCallback, useRef } from 'react';
 import { useGameLoop } from './hooks/useGameLoop';
 import { useInput } from './hooks/useInput';
 
