@@ -1,0 +1,1018 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 17,
+  "height": 24,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "FOREST"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 3
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 34
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 48
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,0,0,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0,0,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0,0,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0,0,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0,0,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1,0,0,1,1,1,0,0,0,1,1,0,0,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1,0,0,1,1,1,0,0,0,1,1,0,0,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1,0,0,1,1,1,0,0,0,1,1,0,0,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1,0,0,1,1,1,0,0,0,1,1,0,0,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1,0,0,1,1,1,0,0,0,1,1,0,0,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1,0,0,1,1,1,0,0,0,1,1,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,0,0,0,1,1,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,1,1,1,1,0,0,0,1,1,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 17,
+      "height": 24,
+      "data": [
+        56,
+        22,
+        3,
+        58,
+        58,
+        58,
+        58,
+        3,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        74,
+        56,
+        60,
+        3,
+        28,
+        28,
+        28,
+        42,
+        3,
+        28,
+        42,
+        54,
+        54,
+        54,
+        54,
+        54,
+        42,
+        60,
+        56,
+        60,
+        3,
+        42,
+        60,
+        56,
+        28,
+        3,
+        28,
+        60,
+        3,
+        3,
+        3,
+        3,
+        3,
+        56,
+        60,
+        7,
+        8,
+        3,
+        2,
+        8,
+        7,
+        2,
+        3,
+        2,
+        8,
+        3,
+        3,
+        3,
+        3,
+        3,
+        56,
+        60,
+        7,
+        8,
+        3,
+        2,
+        8,
+        7,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2,
+        28,
+        42,
+        28,
+        28,
+        60,
+        7,
+        8,
+        3,
+        2,
+        8,
+        7,
+        2,
+        3,
+        2,
+        8,
+        3,
+        3,
+        56,
+        60,
+        3,
+        2,
+        8,
+        7,
+        8,
+        3,
+        2,
+        8,
+        7,
+        2,
+        3,
+        2,
+        8,
+        3,
+        3,
+        56,
+        60,
+        3,
+        2,
+        8,
+        7,
+        8,
+        3,
+        2,
+        8,
+        7,
+        2,
+        3,
+        2,
+        8,
+        3,
+        3,
+        56,
+        60,
+        3,
+        2,
+        8,
+        7,
+        8,
+        3,
+        2,
+        8,
+        7,
+        2,
+        28,
+        2,
+        8,
+        3,
+        3,
+        56,
+        22,
+        3,
+        2,
+        8,
+        7,
+        8,
+        3,
+        2,
+        8,
+        56,
+        42,
+        28,
+        28,
+        60,
+        3,
+        3,
+        56,
+        42,
+        28,
+        28,
+        60,
+        7,
+        8,
+        3,
+        2,
+        8,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        7,
+        2,
+        3,
+        56,
+        60,
+        7,
+        2,
+        28,
+        2,
+        8,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        7,
+        2,
+        3,
+        56,
+        60,
+        56,
+        28,
+        34,
+        42,
+        28,
+        28,
+        60,
+        3,
+        3,
+        3,
+        3,
+        3,
+        7,
+        2,
+        3,
+        56,
+        60,
+        3,
+        3,
+        3,
+        3,
+        3,
+        56,
+        60,
+        3,
+        3,
+        3,
+        3,
+        3,
+        7,
+        2,
+        3,
+        56,
+        60,
+        3,
+        3,
+        3,
+        3,
+        3,
+        56,
+        60,
+        3,
+        3,
+        3,
+        3,
+        3,
+        7,
+        2,
+        3,
+        56,
+        60,
+        7,
+        2,
+        2,
+        2,
+        8,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        7,
+        2,
+        3,
+        56,
+        60,
+        3,
+        3,
+        3,
+        42,
+        2,
+        2,
+        2,
+        2,
+        34,
+        8,
+        3,
+        3,
+        7,
+        28,
+        28,
+        42,
+        60,
+        3,
+        3,
+        3,
+        28,
+        8,
+        3,
+        3,
+        7,
+        28,
+        8,
+        3,
+        3,
+        7,
+        28,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        28,
+        8,
+        3,
+        3,
+        7,
+        28,
+        8,
+        3,
+        3,
+        7,
+        28,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        28,
+        8,
+        3,
+        3,
+        7,
+        28,
+        8,
+        3,
+        3,
+        7,
+        28,
+        3,
+        3,
+        3,
+        7,
+        2,
+        2,
+        28,
+        2,
+        2,
+        2,
+        2,
+        21,
+        2,
+        2,
+        2,
+        23,
+        28,
+        2,
+        2,
+        8,
+        7,
+        2,
+        2,
+        28,
+        28,
+        28,
+        28,
+        28,
+        25,
+        28,
+        28,
+        28,
+        28,
+        28,
+        2,
+        2,
+        8,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        56,
+        28,
+        22,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        56,
+        89,
+        60,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_VIRIDIAN_FOREST_NORTH_GATE",
+          "type": "warp",
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "VIRIDIAN_FOREST_NORTH_GATE"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_VIRIDIAN_FOREST_NORTH_GATE",
+          "type": "warp",
+          "x": 32,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "VIRIDIAN_FOREST_NORTH_GATE"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "warp_VIRIDIAN_FOREST_SOUTH_GATE",
+          "type": "warp",
+          "x": 240,
+          "y": 752,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "VIRIDIAN_FOREST_SOUTH_GATE"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "warp_VIRIDIAN_FOREST_SOUTH_GATE",
+          "type": "warp",
+          "x": 256,
+          "y": 752,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "VIRIDIAN_FOREST_SOUTH_GATE"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "warp_VIRIDIAN_FOREST_SOUTH_GATE",
+          "type": "warp",
+          "x": 272,
+          "y": 752,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "VIRIDIAN_FOREST_SOUTH_GATE"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "warp_VIRIDIAN_FOREST_SOUTH_GATE",
+          "type": "warp",
+          "x": 288,
+          "y": 752,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "VIRIDIAN_FOREST_SOUTH_GATE"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "TEXT_VIRIDIANFOREST_TRAINER_TIPS1",
+          "type": "sign",
+          "x": 384,
+          "y": 640,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VIRIDIANFOREST_TRAINER_TIPS1"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "TEXT_VIRIDIANFOREST_USE_ANTIDOTE_SIGN",
+          "type": "sign",
+          "x": 256,
+          "y": 512,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VIRIDIANFOREST_USE_ANTIDOTE_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "TEXT_VIRIDIANFOREST_TRAINER_TIPS2",
+          "type": "sign",
+          "x": 416,
+          "y": 272,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VIRIDIANFOREST_TRAINER_TIPS2"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "TEXT_VIRIDIANFOREST_TRAINER_TIPS3",
+          "type": "sign",
+          "x": 64,
+          "y": 384,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VIRIDIANFOREST_TRAINER_TIPS3"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "TEXT_VIRIDIANFOREST_TRAINER_TIPS4",
+          "type": "sign",
+          "x": 288,
+          "y": 720,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VIRIDIANFOREST_TRAINER_TIPS4"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "TEXT_VIRIDIANFOREST_LEAVING_SIGN",
+          "type": "sign",
+          "x": 32,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VIRIDIANFOREST_LEAVING_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "SPRITE_YOUNGSTER",
+          "type": "npc",
+          "x": 256,
+          "y": 688,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_YOUNGSTER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VIRIDIANFOREST_YOUNGSTER1"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "SPRITE_YOUNGSTER",
+          "type": "npc",
+          "x": 480,
+          "y": 528,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_YOUNGSTER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VIRIDIANFOREST_YOUNGSTER2"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "SPRITE_YOUNGSTER",
+          "type": "npc",
+          "x": 480,
+          "y": 304,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_YOUNGSTER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VIRIDIANFOREST_YOUNGSTER3"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "SPRITE_YOUNGSTER",
+          "type": "npc",
+          "x": 32,
+          "y": 288,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_YOUNGSTER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VIRIDIANFOREST_YOUNGSTER4"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "SPRITE_COOLTRAINER_F",
+          "type": "npc",
+          "x": 32,
+          "y": 656,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_COOLTRAINER_F"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VIRIDIANFOREST_COOLTRAINER_F"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "SPRITE_YOUNGSTER",
+          "type": "npc",
+          "x": 208,
+          "y": 272,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_YOUNGSTER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VIRIDIANFOREST_YOUNGSTER5"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "SPRITE_POKE_BALL",
+          "type": "npc",
+          "x": 400,
+          "y": 176,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_POKE_BALL"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VIRIDIANFOREST_POTION1"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "SPRITE_POKE_BALL",
+          "type": "npc",
+          "x": 192,
+          "y": 464,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_POKE_BALL"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VIRIDIANFOREST_POTION2"
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "SPRITE_POKE_BALL",
+          "type": "npc",
+          "x": 16,
+          "y": 496,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_POKE_BALL"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VIRIDIANFOREST_POKE_BALL"
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "SPRITE_YOUNGSTER",
+          "type": "npc",
+          "x": 432,
+          "y": 640,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_YOUNGSTER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VIRIDIANFOREST_YOUNGSTER6"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "FOREST",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 128,
+      "columns": 16,
+      "image": "../../tilesets/rendered/forest.png",
+      "imagewidth": 512,
+      "imageheight": 256
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 10,
+  "height": 9,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "CEMETERY"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 1
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 20
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 18
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,1,1,1,1,0,0,0,0,1,0,0,1,1,0,0,1,0,0,0,0,1,1,1,1,1,0,0,0,1,0,0,1,1,0,0,1,0,0,0,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,1,1,1,1,1,1,0,0,1,0,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 10,
+      "height": 9,
+      "data": [
+        2,
+        2,
+        2,
+        4,
+        11,
+        7,
+        8,
+        4,
+        2,
+        2,
+        2,
+        2,
+        17,
+        92,
+        82,
+        15,
+        15,
+        7,
+        9,
+        2,
+        2,
+        13,
+        58,
+        20,
+        80,
+        80,
+        80,
+        80,
+        89,
+        14,
+        2,
+        11,
+        15,
+        81,
+        15,
+        15,
+        15,
+        20,
+        24,
+        8,
+        2,
+        18,
+        15,
+        81,
+        15,
+        83,
+        15,
+        82,
+        15,
+        19,
+        2,
+        29,
+        15,
+        81,
+        15,
+        15,
+        15,
+        82,
+        15,
+        31,
+        2,
+        13,
+        58,
+        79,
+        15,
+        77,
+        77,
+        78,
+        77,
+        14,
+        2,
+        2,
+        21,
+        87,
+        15,
+        15,
+        15,
+        87,
+        12,
+        2,
+        2,
+        2,
+        2,
+        6,
+        84,
+        87,
+        85,
+        6,
+        2,
+        2
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_POKEMON_TOWER_2F",
+          "type": "warp",
+          "x": 48,
+          "y": 144,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "POKEMON_TOWER_2F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_POKEMON_TOWER_4F",
+          "type": "warp",
+          "x": 288,
+          "y": 144,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "POKEMON_TOWER_4F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "SPRITE_CHANNELER",
+          "type": "npc",
+          "x": 192,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_CHANNELER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_POKEMONTOWER3F_CHANNELER1"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "SPRITE_CHANNELER",
+          "type": "npc",
+          "x": 144,
+          "y": 128,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_CHANNELER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_POKEMONTOWER3F_CHANNELER2"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "SPRITE_CHANNELER",
+          "type": "npc",
+          "x": 160,
+          "y": 208,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_CHANNELER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_POKEMONTOWER3F_CHANNELER3"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "SPRITE_POKE_BALL",
+          "type": "npc",
+          "x": 192,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_POKE_BALL"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_POKEMONTOWER3F_ESCAPE_ROPE"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "CEMETERY",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 110,
+      "columns": 16,
+      "image": "../../tilesets/rendered/cemetery.png",
+      "imagewidth": 512,
+      "imageheight": 224
+    }
+  ]
+}

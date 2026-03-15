@@ -1,0 +1,674 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 10,
+  "height": 27,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "OVERWORLD"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 67
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 20
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 54
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,1,1,1,1,1,0,0,0,1,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,1,1,1,1,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 10,
+      "height": 27,
+      "data": [
+        11,
+        78,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        11,
+        78,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        11,
+        78,
+        50,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        11,
+        78,
+        120,
+        120,
+        120,
+        120,
+        120,
+        50,
+        120,
+        120,
+        11,
+        78,
+        120,
+        50,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        11,
+        78,
+        120,
+        120,
+        120,
+        120,
+        50,
+        120,
+        120,
+        120,
+        11,
+        78,
+        50,
+        50,
+        50,
+        11,
+        86,
+        11,
+        9,
+        120,
+        11,
+        78,
+        50,
+        50,
+        50,
+        11,
+        86,
+        78,
+        16,
+        16,
+        11,
+        78,
+        29,
+        29,
+        29,
+        11,
+        86,
+        78,
+        16,
+        16,
+        11,
+        78,
+        12,
+        12,
+        12,
+        110,
+        86,
+        78,
+        16,
+        16,
+        11,
+        78,
+        12,
+        12,
+        12,
+        110,
+        86,
+        78,
+        32,
+        32,
+        11,
+        78,
+        12,
+        12,
+        12,
+        110,
+        86,
+        78,
+        68,
+        68,
+        11,
+        78,
+        111,
+        8,
+        8,
+        110,
+        86,
+        78,
+        68,
+        68,
+        11,
+        78,
+        54,
+        11,
+        86,
+        110,
+        86,
+        78,
+        68,
+        68,
+        11,
+        78,
+        11,
+        11,
+        86,
+        110,
+        86,
+        11,
+        100,
+        68,
+        11,
+        78,
+        11,
+        11,
+        86,
+        110,
+        86,
+        11,
+        78,
+        68,
+        11,
+        78,
+        11,
+        11,
+        86,
+        54,
+        86,
+        11,
+        78,
+        68,
+        11,
+        78,
+        11,
+        11,
+        86,
+        110,
+        86,
+        11,
+        78,
+        68,
+        20,
+        20,
+        11,
+        11,
+        86,
+        110,
+        86,
+        11,
+        78,
+        68,
+        20,
+        20,
+        11,
+        11,
+        86,
+        110,
+        86,
+        11,
+        78,
+        68,
+        86,
+        111,
+        86,
+        86,
+        86,
+        11,
+        86,
+        11,
+        78,
+        68,
+        8,
+        54,
+        11,
+        11,
+        11,
+        11,
+        86,
+        11,
+        78,
+        68,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        86,
+        11,
+        78,
+        68,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        11,
+        78,
+        68,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        78,
+        68,
+        82,
+        82,
+        82,
+        82,
+        82,
+        82,
+        82,
+        82,
+        82,
+        68,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        68
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "TEXT_ROUTE14_SIGN",
+          "type": "sign",
+          "x": 272,
+          "y": 208,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE14_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "SPRITE_COOLTRAINER_M",
+          "type": "npc",
+          "x": 64,
+          "y": 64,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_COOLTRAINER_M"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE14_COOLTRAINER_M1"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "SPRITE_COOLTRAINER_M",
+          "type": "npc",
+          "x": 240,
+          "y": 96,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_COOLTRAINER_M"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE14_COOLTRAINER_M2"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "SPRITE_COOLTRAINER_M",
+          "type": "npc",
+          "x": 192,
+          "y": 176,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_COOLTRAINER_M"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE14_COOLTRAINER_M3"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "SPRITE_COOLTRAINER_M",
+          "type": "npc",
+          "x": 224,
+          "y": 240,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_COOLTRAINER_M"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "UP"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE14_COOLTRAINER_M4"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "SPRITE_COOLTRAINER_M",
+          "type": "npc",
+          "x": 240,
+          "y": 496,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_COOLTRAINER_M"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE14_COOLTRAINER_M5"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "SPRITE_COOLTRAINER_M",
+          "type": "npc",
+          "x": 96,
+          "y": 784,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_COOLTRAINER_M"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "UP"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE14_COOLTRAINER_M6"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "SPRITE_BIKER",
+          "type": "npc",
+          "x": 80,
+          "y": 624,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_BIKER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE14_BIKER1"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "SPRITE_BIKER",
+          "type": "npc",
+          "x": 64,
+          "y": 480,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_BIKER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE14_BIKER2"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "SPRITE_BIKER",
+          "type": "npc",
+          "x": 240,
+          "y": 480,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_BIKER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE14_BIKER3"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "SPRITE_BIKER",
+          "type": "npc",
+          "x": 64,
+          "y": 496,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_BIKER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE14_BIKER4"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "OVERWORLD",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 128,
+      "columns": 16,
+      "image": "../../tilesets/rendered/overworld.png",
+      "imagewidth": 512,
+      "imageheight": 256
+    }
+  ]
+}

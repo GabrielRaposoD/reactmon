@@ -1,0 +1,282 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 10,
+  "height": 9,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "CEMETERY"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 1
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 20
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 18
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 10,
+      "height": 9,
+      "data": [
+        2,
+        2,
+        2,
+        4,
+        3,
+        3,
+        3,
+        4,
+        2,
+        2,
+        2,
+        2,
+        17,
+        3,
+        109,
+        15,
+        110,
+        3,
+        9,
+        2,
+        2,
+        13,
+        3,
+        3,
+        58,
+        15,
+        33,
+        3,
+        3,
+        14,
+        2,
+        3,
+        3,
+        3,
+        58,
+        15,
+        33,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        58,
+        15,
+        33,
+        3,
+        54,
+        3,
+        2,
+        3,
+        3,
+        3,
+        58,
+        15,
+        33,
+        3,
+        3,
+        3,
+        2,
+        13,
+        3,
+        3,
+        29,
+        15,
+        31,
+        3,
+        3,
+        14,
+        2,
+        2,
+        21,
+        3,
+        3,
+        15,
+        3,
+        3,
+        12,
+        2,
+        2,
+        2,
+        2,
+        6,
+        50,
+        30,
+        31,
+        6,
+        2,
+        2
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_POKEMON_TOWER_6F",
+          "type": "warp",
+          "x": 144,
+          "y": 256,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "POKEMON_TOWER_6F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "SPRITE_JESSIE",
+          "type": "npc",
+          "x": 160,
+          "y": 128,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_JESSIE"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_POKEMONTOWER7F_JESSIE"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "SPRITE_JAMES",
+          "type": "npc",
+          "x": 176,
+          "y": 128,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_JAMES"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_POKEMONTOWER7F_JAMES"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "SPRITE_MR_FUJI",
+          "type": "npc",
+          "x": 160,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_MR_FUJI"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_POKEMONTOWER7F_MR_FUJI"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "CEMETERY",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 110,
+      "columns": 16,
+      "image": "../../tilesets/rendered/cemetery.png",
+      "imagewidth": 512,
+      "imageheight": 224
+    }
+  ]
+}

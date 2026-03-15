@@ -1,0 +1,140 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 2,
+  "height": 2,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "LOBBY"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 15
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 4
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 4
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 2,
+      "height": 2,
+      "data": [
+        43,
+        44,
+        41,
+        42
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_CELADON_MART_1F",
+          "type": "warp",
+          "x": 16,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "CELADON_MART_1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_CELADON_MART_1F",
+          "type": "warp",
+          "x": 32,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "CELADON_MART_1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "TEXT_CELADONMARTELEVATOR",
+          "type": "sign",
+          "x": 48,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMARTELEVATOR"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "LOBBY",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 79,
+      "columns": 16,
+      "image": "../../tilesets/rendered/lobby.png",
+      "imagewidth": 512,
+      "imageheight": 160
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 5,
+  "height": 4,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "LAB"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 23
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 10
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 8
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 5,
+      "height": 4,
+      "data": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        42,
+        8,
+        33,
+        30,
+        31,
+        8,
+        8,
+        8,
+        8,
+        8,
+        14,
+        8,
+        13,
+        8,
+        15
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 64,
+          "y": 112,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 80,
+          "y": 112,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "TEXT_WARDENSHOUSE_DISPLAY_LEFT",
+          "type": "sign",
+          "x": 64,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_WARDENSHOUSE_DISPLAY_LEFT"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "TEXT_WARDENSHOUSE_DISPLAY_RIGHT",
+          "type": "sign",
+          "x": 80,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_WARDENSHOUSE_DISPLAY_RIGHT"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "SPRITE_WARDEN",
+          "type": "npc",
+          "x": 32,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_WARDEN"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_WARDENSHOUSE_WARDEN"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "SPRITE_POKE_BALL",
+          "type": "npc",
+          "x": 128,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_POKE_BALL"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_WARDENSHOUSE_RARE_CANDY"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "SPRITE_BOULDER",
+          "type": "npc",
+          "x": 128,
+          "y": 64,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_BOULDER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "BOULDER_MOVEMENT_BYTE_2"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_WARDENSHOUSE_BOULDER"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "LAB",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 58,
+      "columns": 16,
+      "image": "../../tilesets/rendered/lab.png",
+      "imagewidth": 512,
+      "imageheight": 128
+    }
+  ]
+}

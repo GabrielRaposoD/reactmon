@@ -1,0 +1,264 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 15,
+  "height": 4,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "SHIP"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 12
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 30
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 8
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 15,
+      "height": 4,
+      "data": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        19,
+        6,
+        6,
+        26,
+        6,
+        26,
+        6,
+        26,
+        6,
+        26,
+        6,
+        26,
+        6,
+        6,
+        18,
+        15,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        53,
+        14,
+        13,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        13
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_SS_ANNE_B1F_ROOMS",
+          "type": "warp",
+          "x": 368,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SS_ANNE_B1F_ROOMS"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_SS_ANNE_B1F_ROOMS",
+          "type": "warp",
+          "x": 304,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SS_ANNE_B1F_ROOMS"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "warp_SS_ANNE_B1F_ROOMS",
+          "type": "warp",
+          "x": 240,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SS_ANNE_B1F_ROOMS"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "warp_SS_ANNE_B1F_ROOMS",
+          "type": "warp",
+          "x": 176,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SS_ANNE_B1F_ROOMS"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "warp_SS_ANNE_B1F_ROOMS",
+          "type": "warp",
+          "x": 112,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SS_ANNE_B1F_ROOMS"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "warp_SS_ANNE_1F",
+          "type": "warp",
+          "x": 432,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SS_ANNE_1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 10
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "SHIP",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 62,
+      "columns": 16,
+      "image": "../../tilesets/rendered/ship.png",
+      "imagewidth": 512,
+      "imageheight": 128
+    }
+  ]
+}
