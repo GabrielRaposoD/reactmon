@@ -1,0 +1,188 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 4,
+  "height": 4,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "SHIP"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 12
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 8
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 8
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 4,
+      "height": 4,
+      "data": [
+        62,
+        10,
+        62,
+        62,
+        12,
+        12,
+        8,
+        7,
+        12,
+        12,
+        12,
+        45,
+        12,
+        28,
+        12,
+        54
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 32,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 32,
+          "y": 112,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 48,
+          "y": 112,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "SPRITE_MIDDLE_AGED_MAN",
+          "type": "npc",
+          "x": 80,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_MIDDLE_AGED_MAN"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CERULEANBADGEHOUSE_MIDDLE_AGED_MAN"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "SHIP",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 62,
+      "columns": 16,
+      "image": "../../tilesets/rendered/ship.png",
+      "imagewidth": 512,
+      "imageheight": 128
+    }
+  ]
+}

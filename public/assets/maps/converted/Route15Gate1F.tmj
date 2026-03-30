@@ -1,0 +1,234 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 4,
+  "height": 5,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "GATE"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 10
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 8
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 10
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 4,
+      "height": 5,
+      "data": [
+        29,
+        32,
+        32,
+        30,
+        51,
+        34,
+        34,
+        50,
+        103,
+        1,
+        1,
+        104,
+        42,
+        38,
+        39,
+        31,
+        25,
+        31,
+        49,
+        36
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 0,
+          "y": 64,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 0,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 112,
+          "y": 64,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 112,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "warp_ROUTE_15_GATE_2F",
+          "type": "warp",
+          "x": 96,
+          "y": 128,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "Route15Gate2F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "SPRITE_GUARD",
+          "type": "npc",
+          "x": 64,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_GUARD"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE15GATE1F_GUARD"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "GATE",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 128,
+      "columns": 16,
+      "image": "../../tilesets/rendered/gate.png",
+      "imagewidth": 512,
+      "imageheight": 256
+    }
+  ]
+}

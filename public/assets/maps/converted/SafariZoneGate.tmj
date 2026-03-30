@@ -1,0 +1,236 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 4,
+  "height": 3,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "GATE"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 10
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 8
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 6
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 4,
+      "height": 3,
+      "data": [
+        23,
+        108,
+        107,
+        24,
+        3,
+        10,
+        9,
+        2,
+        25,
+        109,
+        106,
+        26
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 48,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 64,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "warp_SAFARI_ZONE_CENTER",
+          "type": "warp",
+          "x": 48,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SafariZoneCenter"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "warp_SAFARI_ZONE_CENTER",
+          "type": "warp",
+          "x": 64,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SafariZoneCenter"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "SPRITE_SAFARI_ZONE_WORKER",
+          "type": "npc",
+          "x": 96,
+          "y": 32,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_SAFARI_ZONE_WORKER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFARIZONEGATE_SAFARI_ZONE_WORKER1"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "SPRITE_SAFARI_ZONE_WORKER",
+          "type": "npc",
+          "x": 16,
+          "y": 64,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_SAFARI_ZONE_WORKER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFARIZONEGATE_SAFARI_ZONE_WORKER2"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "GATE",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 128,
+      "columns": 16,
+      "image": "../../tilesets/rendered/gate.png",
+      "imagewidth": 512,
+      "imageheight": 256
+    }
+  ]
+}

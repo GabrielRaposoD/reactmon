@@ -1,0 +1,210 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 10,
+  "height": 9,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "PLATEAU"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 14
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 20
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 18
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,1,0,0,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,1,0,0,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,1,0,0,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 10,
+      "height": 9,
+      "data": [
+        25,
+        27,
+        27,
+        34,
+        24,
+        24,
+        35,
+        27,
+        27,
+        28,
+        29,
+        40,
+        29,
+        25,
+        27,
+        27,
+        28,
+        32,
+        40,
+        32,
+        2,
+        2,
+        2,
+        29,
+        30,
+        31,
+        32,
+        2,
+        2,
+        2,
+        42,
+        42,
+        42,
+        2,
+        68,
+        67,
+        2,
+        43,
+        43,
+        43,
+        45,
+        45,
+        45,
+        41,
+        68,
+        67,
+        41,
+        44,
+        44,
+        44,
+        42,
+        42,
+        42,
+        2,
+        68,
+        67,
+        2,
+        43,
+        43,
+        43,
+        45,
+        45,
+        45,
+        41,
+        68,
+        67,
+        41,
+        44,
+        44,
+        44,
+        42,
+        42,
+        42,
+        2,
+        68,
+        67,
+        2,
+        43,
+        43,
+        43,
+        45,
+        45,
+        45,
+        41,
+        68,
+        67,
+        41,
+        44,
+        44,
+        44
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_INDIGO_PLATEAU_LOBBY",
+          "type": "warp",
+          "x": 144,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "IndigoPlateauLobby"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_INDIGO_PLATEAU_LOBBY",
+          "type": "warp",
+          "x": 160,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "IndigoPlateauLobby"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "PLATEAU",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 73,
+      "columns": 16,
+      "image": "../../tilesets/rendered/plateau.png",
+      "imagewidth": 512,
+      "imageheight": 160
+    }
+  ]
+}

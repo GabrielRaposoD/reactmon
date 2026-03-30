@@ -1,0 +1,202 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 4,
+  "height": 6,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "MANSION"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 15
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 8
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 12
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,1,0,0,1,1,0,1,1,1,0,0,1,0,0,1,1,1,0,0,1,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 4,
+      "height": 6,
+      "data": [
+        16,
+        21,
+        22,
+        26,
+        18,
+        18,
+        27,
+        8,
+        40,
+        12,
+        5,
+        8,
+        44,
+        19,
+        20,
+        8,
+        48,
+        13,
+        14,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_CELADON_MANSION_3F",
+          "type": "warp",
+          "x": 96,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "CeladonMansion3F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_CELADON_MANSION_1F",
+          "type": "warp",
+          "x": 112,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "CeladonMansion1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "warp_CELADON_MANSION_1F",
+          "type": "warp",
+          "x": 32,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "CeladonMansion1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "warp_CELADON_MANSION_3F",
+          "type": "warp",
+          "x": 64,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "CeladonMansion3F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "TEXT_CELADONMANSION2F_MEETING_ROOM_SIGN",
+          "type": "sign",
+          "x": 64,
+          "y": 144,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMANSION2F_MEETING_ROOM_SIGN"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "MANSION",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 72,
+      "columns": 16,
+      "image": "../../tilesets/rendered/mansion.png",
+      "imagewidth": 512,
+      "imageheight": 160
+    }
+  ]
+}

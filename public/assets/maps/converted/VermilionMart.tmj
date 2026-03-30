@@ -1,0 +1,229 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 4,
+  "height": 4,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "MART"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 0
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 8
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 8
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 4,
+      "height": 4,
+      "data": [
+        19,
+        20,
+        20,
+        10,
+        38,
+        16,
+        21,
+        21,
+        25,
+        26,
+        22,
+        22,
+        24,
+        27,
+        12,
+        16
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 48,
+          "y": 112,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 64,
+          "y": 112,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "SPRITE_CLERK",
+          "type": "npc",
+          "x": 0,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_CLERK"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VERMILIONMART_CLERK"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "SPRITE_COOLTRAINER_M",
+          "type": "npc",
+          "x": 80,
+          "y": 96,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_COOLTRAINER_M"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VERMILIONMART_COOLTRAINER_M"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "SPRITE_COOLTRAINER_F",
+          "type": "npc",
+          "x": 48,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_COOLTRAINER_F"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT_RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VERMILIONMART_COOLTRAINER_F"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "MART",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 40,
+      "columns": 16,
+      "image": "../../tilesets/rendered/pokecenter.png",
+      "imagewidth": 512,
+      "imageheight": 96
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 10,
+  "height": 9,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "OVERWORLD"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 11
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 20
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 18
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1,0,0,0,1,1,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1,0,0,0,1,1,0,0,1,1,1,1,1,0,0,0,1,1,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,1,1,0,0,1,1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,1,1,0,0,1,1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,1,1,0,0,1,1,1,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,1,1,0,0,1,1,1,1,0,0,0,0,0,1,1,0,0,0,1,1,1,1,0,0,1,1,1,1,0,0,0,0,0,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 10,
+      "height": 9,
+      "data": [
+        83,
+        80,
+        83,
+        83,
+        80,
+        12,
+        81,
+        83,
+        83,
+        81,
+        79,
+        2,
+        57,
+        58,
+        2,
+        2,
+        57,
+        58,
+        2,
+        78,
+        79,
+        9,
+        61,
+        62,
+        2,
+        9,
+        61,
+        62,
+        2,
+        78,
+        79,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        78,
+        79,
+        2,
+        120,
+        87,
+        2,
+        13,
+        14,
+        15,
+        2,
+        78,
+        79,
+        2,
+        117,
+        117,
+        2,
+        17,
+        59,
+        1,
+        2,
+        78,
+        79,
+        2,
+        2,
+        2,
+        2,
+        120,
+        87,
+        120,
+        50,
+        78,
+        79,
+        11,
+        30,
+        31,
+        50,
+        117,
+        117,
+        11,
+        50,
+        78,
+        81,
+        11,
+        102,
+        101,
+        98,
+        98,
+        98,
+        98,
+        98,
+        80
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_REDS_HOUSE_1F",
+          "type": "warp",
+          "x": 80,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "RedsHouse1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_BLUES_HOUSE",
+          "type": "warp",
+          "x": 208,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "BluesHouse"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "warp_OAKS_LAB",
+          "type": "warp",
+          "x": 192,
+          "y": 176,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "OaksLab"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "TEXT_PALLETTOWN_OAKSLAB_SIGN",
+          "type": "sign",
+          "x": 208,
+          "y": 208,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_PALLETTOWN_OAKSLAB_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "TEXT_PALLETTOWN_SIGN",
+          "type": "sign",
+          "x": 112,
+          "y": 144,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_PALLETTOWN_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "TEXT_PALLETTOWN_PLAYERSHOUSE_SIGN",
+          "type": "sign",
+          "x": 48,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_PALLETTOWN_PLAYERSHOUSE_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "TEXT_PALLETTOWN_RIVALSHOUSE_SIGN",
+          "type": "sign",
+          "x": 176,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_PALLETTOWN_RIVALSHOUSE_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "SPRITE_OAK",
+          "type": "npc",
+          "x": 160,
+          "y": 64,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_OAK"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_PALLETTOWN_OAK"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "SPRITE_GIRL",
+          "type": "npc",
+          "x": 48,
+          "y": 128,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_GIRL"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "ANY_DIR"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_PALLETTOWN_GIRL"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "SPRITE_FISHER",
+          "type": "npc",
+          "x": 176,
+          "y": 224,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_FISHER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "ANY_DIR"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_PALLETTOWN_FISHER"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "OVERWORLD",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 128,
+      "columns": 16,
+      "image": "../../tilesets/rendered/overworld.png",
+      "imagewidth": 512,
+      "imageheight": 256
+    }
+  ]
+}

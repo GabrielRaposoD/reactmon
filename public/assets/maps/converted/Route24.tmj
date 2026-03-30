@@ -1,0 +1,537 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 10,
+  "height": 18,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "OVERWORLD"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 44
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 20
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 36
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,0,1,1,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 10,
+      "height": 18,
+      "data": [
+        45,
+        45,
+        45,
+        45,
+        45,
+        45,
+        45,
+        45,
+        45,
+        45,
+        45,
+        44,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        45,
+        42,
+        50,
+        50,
+        50,
+        50,
+        72,
+        50,
+        89,
+        11,
+        45,
+        42,
+        27,
+        93,
+        27,
+        27,
+        76,
+        50,
+        91,
+        8,
+        45,
+        42,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        45,
+        42,
+        11,
+        11,
+        11,
+        50,
+        99,
+        82,
+        82,
+        82,
+        45,
+        42,
+        117,
+        117,
+        11,
+        50,
+        79,
+        11,
+        63,
+        64,
+        45,
+        42,
+        117,
+        117,
+        11,
+        50,
+        79,
+        11,
+        41,
+        45,
+        45,
+        42,
+        11,
+        30,
+        107,
+        85,
+        79,
+        11,
+        41,
+        45,
+        45,
+        42,
+        12,
+        102,
+        26,
+        85,
+        79,
+        11,
+        41,
+        45,
+        45,
+        42,
+        12,
+        102,
+        26,
+        85,
+        79,
+        11,
+        37,
+        88,
+        45,
+        42,
+        12,
+        102,
+        26,
+        85,
+        79,
+        78,
+        68,
+        68,
+        45,
+        42,
+        12,
+        102,
+        26,
+        85,
+        79,
+        78,
+        68,
+        68,
+        45,
+        42,
+        12,
+        102,
+        26,
+        85,
+        79,
+        78,
+        68,
+        68,
+        45,
+        42,
+        12,
+        102,
+        26,
+        85,
+        79,
+        78,
+        68,
+        68,
+        45,
+        42,
+        12,
+        102,
+        26,
+        85,
+        79,
+        78,
+        68,
+        68,
+        45,
+        42,
+        32,
+        47,
+        26,
+        85,
+        79,
+        78,
+        68,
+        68,
+        45,
+        42,
+        68,
+        68,
+        26,
+        85,
+        79,
+        78,
+        68,
+        68
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "SPRITE_COOLTRAINER_M",
+          "type": "npc",
+          "x": 176,
+          "y": 240,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_COOLTRAINER_M"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE24_COOLTRAINER_M1"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "SPRITE_COOLTRAINER_M",
+          "type": "npc",
+          "x": 80,
+          "y": 320,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_COOLTRAINER_M"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "UP"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE24_COOLTRAINER_M2"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "SPRITE_COOLTRAINER_M",
+          "type": "npc",
+          "x": 176,
+          "y": 304,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_COOLTRAINER_M"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE24_COOLTRAINER_M3"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "SPRITE_COOLTRAINER_F",
+          "type": "npc",
+          "x": 160,
+          "y": 352,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_COOLTRAINER_F"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE24_COOLTRAINER_F1"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "SPRITE_YOUNGSTER",
+          "type": "npc",
+          "x": 176,
+          "y": 400,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_YOUNGSTER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE24_YOUNGSTER1"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "SPRITE_COOLTRAINER_F",
+          "type": "npc",
+          "x": 160,
+          "y": 448,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_COOLTRAINER_F"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE24_COOLTRAINER_F2"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "SPRITE_YOUNGSTER",
+          "type": "npc",
+          "x": 176,
+          "y": 496,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_YOUNGSTER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE24_YOUNGSTER2"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "SPRITE_POKE_BALL",
+          "type": "npc",
+          "x": 160,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_POKE_BALL"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE24_TM_THUNDER_WAVE"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "SPRITE_COOLTRAINER_M",
+          "type": "npc",
+          "x": 96,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_COOLTRAINER_M"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE24_COOLTRAINER_M4"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "OVERWORLD",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 128,
+      "columns": 16,
+      "image": "../../tilesets/rendered/overworld.png",
+      "imagewidth": 512,
+      "imageheight": 256
+    }
+  ]
+}

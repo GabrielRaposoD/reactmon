@@ -1,0 +1,725 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 12,
+  "height": 8,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "SHIP"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 12
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 24
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 16
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,0,0,0,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,0,0,0,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,0,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 12,
+      "height": 8,
+      "data": [
+        56,
+        57,
+        13,
+        13,
+        13,
+        56,
+        57,
+        13,
+        13,
+        13,
+        56,
+        57,
+        60,
+        58,
+        13,
+        13,
+        13,
+        60,
+        58,
+        13,
+        13,
+        13,
+        60,
+        58,
+        12,
+        28,
+        13,
+        13,
+        13,
+        12,
+        28,
+        13,
+        13,
+        13,
+        12,
+        28,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        56,
+        57,
+        13,
+        13,
+        13,
+        56,
+        57,
+        13,
+        13,
+        13,
+        56,
+        57,
+        60,
+        58,
+        13,
+        13,
+        13,
+        60,
+        58,
+        13,
+        13,
+        13,
+        60,
+        58,
+        12,
+        28,
+        13,
+        13,
+        13,
+        12,
+        28,
+        13,
+        13,
+        13,
+        12,
+        28
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_SS_ANNE_B1F",
+          "type": "warp",
+          "x": 32,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SSAnneB1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_SS_ANNE_B1F",
+          "type": "warp",
+          "x": 48,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SSAnneB1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "warp_SS_ANNE_B1F",
+          "type": "warp",
+          "x": 192,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SSAnneB1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "warp_SS_ANNE_B1F",
+          "type": "warp",
+          "x": 208,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SSAnneB1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "warp_SS_ANNE_B1F",
+          "type": "warp",
+          "x": 352,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SSAnneB1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "warp_SS_ANNE_B1F",
+          "type": "warp",
+          "x": 368,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SSAnneB1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "warp_SS_ANNE_B1F",
+          "type": "warp",
+          "x": 32,
+          "y": 240,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SSAnneB1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "warp_SS_ANNE_B1F",
+          "type": "warp",
+          "x": 48,
+          "y": 240,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SSAnneB1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "warp_SS_ANNE_B1F",
+          "type": "warp",
+          "x": 192,
+          "y": 240,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SSAnneB1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "warp_SS_ANNE_B1F",
+          "type": "warp",
+          "x": 208,
+          "y": 240,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SSAnneB1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "SPRITE_SAILOR",
+          "type": "npc",
+          "x": 0,
+          "y": 208,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_SAILOR"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SSANNEB1FROOMS_SAILOR1"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "SPRITE_SAILOR",
+          "type": "npc",
+          "x": 32,
+          "y": 176,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_SAILOR"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SSANNEB1FROOMS_SAILOR2"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "SPRITE_SAILOR",
+          "type": "npc",
+          "x": 192,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_SAILOR"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SSANNEB1FROOMS_SAILOR3"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "SPRITE_SAILOR",
+          "type": "npc",
+          "x": 352,
+          "y": 32,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_SAILOR"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SSANNEB1FROOMS_SAILOR4"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "SPRITE_SAILOR",
+          "type": "npc",
+          "x": 0,
+          "y": 32,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_SAILOR"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SSANNEB1FROOMS_SAILOR5"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "SPRITE_FISHER",
+          "type": "npc",
+          "x": 0,
+          "y": 64,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_FISHER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SSANNEB1FROOMS_FISHER"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "SPRITE_SUPER_NERD",
+          "type": "npc",
+          "x": 160,
+          "y": 208,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_SUPER_NERD"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SSANNEB1FROOMS_SUPER_NERD"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "SPRITE_MONSTER",
+          "type": "npc",
+          "x": 176,
+          "y": 192,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_MONSTER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SSANNEB1FROOMS_MACHOKE"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "SPRITE_POKE_BALL",
+          "type": "npc",
+          "x": 320,
+          "y": 32,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_POKE_BALL"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SSANNEB1FROOMS_ETHER"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "SPRITE_POKE_BALL",
+          "type": "npc",
+          "x": 160,
+          "y": 32,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_POKE_BALL"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SSANNEB1FROOMS_TM_REST"
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "SPRITE_POKE_BALL",
+          "type": "npc",
+          "x": 192,
+          "y": 176,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_POKE_BALL"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SSANNEB1FROOMS_MAX_POTION"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "SHIP",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 62,
+      "columns": 16,
+      "image": "../../tilesets/rendered/ship.png",
+      "imagewidth": 512,
+      "imageheight": 128
+    }
+  ]
+}

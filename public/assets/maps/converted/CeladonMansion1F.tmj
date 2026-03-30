@@ -1,0 +1,347 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 4,
+  "height": 6,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "MANSION"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 15
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 8
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 12
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,1,1,1,1,1,1,1,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,1,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 4,
+      "height": 6,
+      "data": [
+        16,
+        2,
+        3,
+        4,
+        37,
+        43,
+        7,
+        8,
+        12,
+        12,
+        5,
+        8,
+        17,
+        12,
+        9,
+        8,
+        13,
+        13,
+        14,
+        8,
+        8,
+        8,
+        63,
+        8
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 64,
+          "y": 176,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 80,
+          "y": 176,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 64,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "warp_CELADON_MANSION_2F",
+          "type": "warp",
+          "x": 112,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "CeladonMansion2F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "warp_CELADON_MANSION_2F",
+          "type": "warp",
+          "x": 32,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "CeladonMansion2F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "TEXT_CELADONMANSION1F_MANAGERS_SUITE_SIGN",
+          "type": "sign",
+          "x": 64,
+          "y": 144,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMANSION1F_MANAGERS_SUITE_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "SPRITE_MONSTER",
+          "type": "npc",
+          "x": 0,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_MONSTER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMANSION1F_MEOWTH"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "SPRITE_GRANNY",
+          "type": "npc",
+          "x": 16,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_GRANNY"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMANSION1F_GRANNY"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "SPRITE_FAIRY",
+          "type": "npc",
+          "x": 16,
+          "y": 128,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_FAIRY"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT_RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMANSION1F_CLEFAIRY"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "SPRITE_MONSTER",
+          "type": "npc",
+          "x": 64,
+          "y": 64,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_MONSTER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "UP_DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMANSION1F_NIDORANF"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "MANSION",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 72,
+      "columns": 16,
+      "image": "../../tilesets/rendered/mansion.png",
+      "imagewidth": 512,
+      "imageheight": 160
+    }
+  ]
+}

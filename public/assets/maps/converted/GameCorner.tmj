@@ -1,0 +1,588 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 10,
+  "height": 9,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "LOBBY"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 15
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 20
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 18
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 10,
+      "height": 9,
+      "data": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        11,
+        11,
+        11,
+        11,
+        53,
+        43,
+        43,
+        43,
+        68,
+        43,
+        48,
+        48,
+        48,
+        52,
+        33,
+        33,
+        33,
+        28,
+        28,
+        28,
+        59,
+        33,
+        33,
+        59,
+        33,
+        33,
+        59,
+        33,
+        33,
+        59,
+        58,
+        32,
+        34,
+        58,
+        32,
+        34,
+        58,
+        32,
+        34,
+        58,
+        58,
+        32,
+        34,
+        58,
+        32,
+        34,
+        58,
+        32,
+        34,
+        58,
+        57,
+        32,
+        34,
+        57,
+        32,
+        34,
+        57,
+        32,
+        34,
+        57,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        41,
+        42,
+        33
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 240,
+          "y": 272,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 256,
+          "y": 272,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "warp_ROCKET_HIDEOUT_B1F",
+          "type": "warp",
+          "x": 272,
+          "y": 64,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "RocketHideoutB1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "TEXT_GAMECORNER_POSTER",
+          "type": "sign",
+          "x": 144,
+          "y": 64,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_GAMECORNER_POSTER"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "SPRITE_BEAUTY",
+          "type": "npc",
+          "x": 32,
+          "y": 96,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_BEAUTY"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_GAMECORNER_BEAUTY1"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "SPRITE_CLERK",
+          "type": "npc",
+          "x": 80,
+          "y": 96,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_CLERK"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_GAMECORNER_CLERK"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "SPRITE_MIDDLE_AGED_MAN",
+          "type": "npc",
+          "x": 32,
+          "y": 160,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_MIDDLE_AGED_MAN"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_GAMECORNER_MIDDLE_AGED_MAN1"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "SPRITE_BEAUTY",
+          "type": "npc",
+          "x": 32,
+          "y": 208,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_BEAUTY"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_GAMECORNER_BEAUTY2"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "SPRITE_FISHING_GURU",
+          "type": "npc",
+          "x": 80,
+          "y": 176,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_FISHING_GURU"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_GAMECORNER_FISHING_GURU1"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "SPRITE_MIDDLE_AGED_WOMAN",
+          "type": "npc",
+          "x": 128,
+          "y": 176,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_MIDDLE_AGED_WOMAN"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_GAMECORNER_MIDDLE_AGED_WOMAN"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "SPRITE_GYM_GUIDE",
+          "type": "npc",
+          "x": 128,
+          "y": 224,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_GYM_GUIDE"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_GAMECORNER_GYM_GUIDE"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "SPRITE_GAMBLER",
+          "type": "npc",
+          "x": 176,
+          "y": 240,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_GAMBLER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_GAMECORNER_GAMBLER"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "SPRITE_MIDDLE_AGED_MAN",
+          "type": "npc",
+          "x": 224,
+          "y": 176,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_MIDDLE_AGED_MAN"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_GAMECORNER_MIDDLE_AGED_MAN2"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "SPRITE_FISHING_GURU",
+          "type": "npc",
+          "x": 272,
+          "y": 208,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_FISHING_GURU"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_GAMECORNER_FISHING_GURU2"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "SPRITE_ROCKET",
+          "type": "npc",
+          "x": 144,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_ROCKET"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "UP"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_GAMECORNER_ROCKET"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "LOBBY",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 79,
+      "columns": 16,
+      "image": "../../tilesets/rendered/lobby.png",
+      "imagewidth": 512,
+      "imageheight": 160
+    }
+  ]
+}

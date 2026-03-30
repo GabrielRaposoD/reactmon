@@ -1,0 +1,483 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 10,
+  "height": 9,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "OVERWORLD"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 44
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 20
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 18
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1,1,1,1,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 10,
+      "height": 9,
+      "data": [
+        88,
+        88,
+        38,
+        124,
+        124,
+        41,
+        105,
+        128,
+        106,
+        45,
+        124,
+        33,
+        34,
+        124,
+        122,
+        41,
+        56,
+        126,
+        127,
+        45,
+        124,
+        125,
+        115,
+        124,
+        124,
+        37,
+        88,
+        7,
+        88,
+        43,
+        124,
+        124,
+        124,
+        124,
+        124,
+        124,
+        124,
+        124,
+        122,
+        41,
+        124,
+        124,
+        122,
+        3,
+        4,
+        122,
+        124,
+        124,
+        124,
+        41,
+        124,
+        124,
+        124,
+        124,
+        124,
+        124,
+        124,
+        33,
+        34,
+        41,
+        124,
+        3,
+        4,
+        3,
+        4,
+        124,
+        124,
+        125,
+        116,
+        41,
+        124,
+        124,
+        124,
+        124,
+        124,
+        124,
+        124,
+        124,
+        124,
+        41,
+        64,
+        64,
+        64,
+        60,
+        124,
+        63,
+        64,
+        64,
+        64,
+        45
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_LAVENDER_POKECENTER",
+          "type": "warp",
+          "x": 48,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LavenderPokecenter"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_POKEMON_TOWER_1F",
+          "type": "warp",
+          "x": 224,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "PokemonTower1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "warp_MR_FUJIS_HOUSE",
+          "type": "warp",
+          "x": 112,
+          "y": 144,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "MrFujisHouse"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "warp_LAVENDER_MART",
+          "type": "warp",
+          "x": 240,
+          "y": 208,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LavenderMart"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "warp_LAVENDER_CUBONE_HOUSE",
+          "type": "warp",
+          "x": 48,
+          "y": 208,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LavenderCuboneHouse"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "warp_NAME_RATERS_HOUSE",
+          "type": "warp",
+          "x": 112,
+          "y": 208,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "NameRatersHouse"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "TEXT_LAVENDERTOWN_SIGN",
+          "type": "sign",
+          "x": 176,
+          "y": 144,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_LAVENDERTOWN_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "TEXT_LAVENDERTOWN_SILPH_SCOPE_SIGN",
+          "type": "sign",
+          "x": 144,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_LAVENDERTOWN_SILPH_SCOPE_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "TEXT_LAVENDERTOWN_MART_SIGN",
+          "type": "sign",
+          "x": 256,
+          "y": 208,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_LAVENDERTOWN_MART_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "TEXT_LAVENDERTOWN_POKECENTER_SIGN",
+          "type": "sign",
+          "x": 64,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_LAVENDERTOWN_POKECENTER_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "TEXT_LAVENDERTOWN_POKEMON_HOUSE_SIGN",
+          "type": "sign",
+          "x": 80,
+          "y": 144,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_LAVENDERTOWN_POKEMON_HOUSE_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "TEXT_LAVENDERTOWN_POKEMON_TOWER_SIGN",
+          "type": "sign",
+          "x": 272,
+          "y": 112,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_LAVENDERTOWN_POKEMON_TOWER_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "SPRITE_LITTLE_GIRL",
+          "type": "npc",
+          "x": 240,
+          "y": 144,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_LITTLE_GIRL"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "ANY_DIR"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_LAVENDERTOWN_LITTLE_GIRL"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "SPRITE_COOLTRAINER_M",
+          "type": "npc",
+          "x": 144,
+          "y": 160,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_COOLTRAINER_M"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_LAVENDERTOWN_COOLTRAINER_M"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "SPRITE_SUPER_NERD",
+          "type": "npc",
+          "x": 128,
+          "y": 112,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_SUPER_NERD"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT_RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_LAVENDERTOWN_SUPER_NERD"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "OVERWORLD",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 128,
+      "columns": 16,
+      "image": "../../tilesets/rendered/overworld.png",
+      "imagewidth": 512,
+      "imageheight": 256
+    }
+  ]
+}

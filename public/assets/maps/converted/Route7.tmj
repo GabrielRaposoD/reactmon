@@ -1,0 +1,289 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 10,
+  "height": 9,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "OVERWORLD"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 15
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 20
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 18
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,0,0,1,1,1,1,0,1,1,1,1,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,1,1,0,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 10,
+      "height": 9,
+      "data": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        50,
+        50,
+        50,
+        72,
+        12,
+        12,
+        12,
+        12,
+        96,
+        124,
+        16,
+        50,
+        50,
+        72,
+        12,
+        12,
+        12,
+        117,
+        96,
+        124,
+        16,
+        27,
+        93,
+        76,
+        117,
+        50,
+        50,
+        50,
+        96,
+        124,
+        16,
+        50,
+        50,
+        50,
+        50,
+        96,
+        33,
+        14,
+        34,
+        2,
+        16,
+        27,
+        33,
+        34,
+        93,
+        27,
+        56,
+        126,
+        127,
+        120,
+        16,
+        9,
+        125,
+        127,
+        50,
+        50,
+        50,
+        50,
+        96,
+        124,
+        16,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        96,
+        124,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_ROUTE_7_GATE",
+          "type": "warp",
+          "x": 288,
+          "y": 144,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "Route7Gate"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_ROUTE_7_GATE",
+          "type": "warp",
+          "x": 288,
+          "y": 160,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "Route7Gate"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "warp_ROUTE_7_GATE",
+          "type": "warp",
+          "x": 176,
+          "y": 144,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "Route7Gate"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "warp_ROUTE_7_GATE",
+          "type": "warp",
+          "x": 176,
+          "y": 160,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "Route7Gate"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "warp_UNDERGROUND_PATH_ROUTE_7",
+          "type": "warp",
+          "x": 80,
+          "y": 208,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "UndergroundPathRoute7Copy"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "TEXT_ROUTE7_UNDERGROUND_PATH_SIGN",
+          "type": "sign",
+          "x": 48,
+          "y": 208,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE7_UNDERGROUND_PATH_SIGN"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "OVERWORLD",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 128,
+      "columns": 16,
+      "image": "../../tilesets/rendered/overworld.png",
+      "imagewidth": 512,
+      "imageheight": 256
+    }
+  ]
+}

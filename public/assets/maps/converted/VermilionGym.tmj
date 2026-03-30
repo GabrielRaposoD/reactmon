@@ -1,0 +1,320 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 5,
+  "height": 9,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "GYM"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 3
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 10
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 18
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 5,
+      "height": 9,
+      "data": [
+        45,
+        38,
+        38,
+        39,
+        45,
+        45,
+        6,
+        6,
+        6,
+        45,
+        43,
+        44,
+        6,
+        43,
+        44,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        6,
+        42,
+        6,
+        41,
+        6,
+        6,
+        18,
+        6,
+        17,
+        6,
+        6,
+        6,
+        5,
+        6,
+        6
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 64,
+          "y": 272,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 80,
+          "y": 272,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "SPRITE_ROCKER",
+          "type": "npc",
+          "x": 80,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_ROCKER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VERMILIONGYM_LT_SURGE"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "SPRITE_GENTLEMAN",
+          "type": "npc",
+          "x": 144,
+          "y": 96,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_GENTLEMAN"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VERMILIONGYM_GENTLEMAN"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "SPRITE_SUPER_NERD",
+          "type": "npc",
+          "x": 48,
+          "y": 128,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_SUPER_NERD"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VERMILIONGYM_SUPER_NERD"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "SPRITE_SAILOR",
+          "type": "npc",
+          "x": 0,
+          "y": 160,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_SAILOR"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VERMILIONGYM_SAILOR"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "SPRITE_GYM_GUIDE",
+          "type": "npc",
+          "x": 64,
+          "y": 224,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_GYM_GUIDE"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VERMILIONGYM_GYM_GUIDE"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "GYM",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 116,
+      "columns": 16,
+      "image": "../../tilesets/rendered/gym.png",
+      "imagewidth": 512,
+      "imageheight": 256
+    }
+  ]
+}

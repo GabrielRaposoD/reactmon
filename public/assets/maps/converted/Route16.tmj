@@ -1,0 +1,696 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 20,
+  "height": 9,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "OVERWORLD"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 15
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 40
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 18
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 20,
+      "height": 9,
+      "data": [
+        83,
+        83,
+        83,
+        83,
+        83,
+        83,
+        83,
+        83,
+        83,
+        83,
+        83,
+        83,
+        83,
+        83,
+        83,
+        83,
+        83,
+        83,
+        16,
+        16,
+        79,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        33,
+        14,
+        34,
+        11,
+        11,
+        12,
+        12,
+        12,
+        12,
+        16,
+        16,
+        79,
+        2,
+        2,
+        3,
+        4,
+        2,
+        2,
+        2,
+        2,
+        56,
+        126,
+        127,
+        2,
+        2,
+        12,
+        12,
+        12,
+        12,
+        16,
+        16,
+        79,
+        2,
+        2,
+        2,
+        2,
+        2,
+        11,
+        11,
+        11,
+        33,
+        14,
+        34,
+        11,
+        2,
+        2,
+        2,
+        2,
+        2,
+        16,
+        16,
+        81,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        105,
+        128,
+        106,
+        112,
+        112,
+        112,
+        112,
+        112,
+        97,
+        16,
+        16,
+        79,
+        50,
+        11,
+        11,
+        50,
+        50,
+        50,
+        50,
+        50,
+        56,
+        126,
+        127,
+        120,
+        87,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        79,
+        50,
+        11,
+        11,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        79,
+        50,
+        11,
+        11,
+        50,
+        50,
+        99,
+        82,
+        82,
+        82,
+        82,
+        82,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        79,
+        50,
+        9,
+        50,
+        50,
+        11,
+        79,
+        30,
+        32,
+        32,
+        32,
+        32,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_ROUTE_16_GATE_1F",
+          "type": "warp",
+          "x": 272,
+          "y": 160,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "Route16Gate1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_ROUTE_16_GATE_1F",
+          "type": "warp",
+          "x": 272,
+          "y": 176,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "Route16Gate1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "warp_ROUTE_16_GATE_1F",
+          "type": "warp",
+          "x": 384,
+          "y": 160,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "Route16Gate1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "warp_ROUTE_16_GATE_1F",
+          "type": "warp",
+          "x": 384,
+          "y": 176,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "Route16Gate1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "warp_ROUTE_16_GATE_1F",
+          "type": "warp",
+          "x": 272,
+          "y": 64,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "Route16Gate1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "warp_ROUTE_16_GATE_1F",
+          "type": "warp",
+          "x": 272,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "Route16Gate1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "warp_ROUTE_16_GATE_1F",
+          "type": "warp",
+          "x": 384,
+          "y": 64,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "Route16Gate1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "warp_ROUTE_16_GATE_1F",
+          "type": "warp",
+          "x": 384,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "Route16Gate1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "warp_ROUTE_16_FLY_HOUSE",
+          "type": "warp",
+          "x": 112,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "Route16FlyHouse"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "TEXT_ROUTE16_CYCLING_ROAD_SIGN",
+          "type": "sign",
+          "x": 432,
+          "y": 176,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE16_CYCLING_ROAD_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "TEXT_ROUTE16_SIGN",
+          "type": "sign",
+          "x": 80,
+          "y": 272,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE16_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "SPRITE_BIKER",
+          "type": "npc",
+          "x": 272,
+          "y": 192,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_BIKER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE16_BIKER1"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "SPRITE_BIKER",
+          "type": "npc",
+          "x": 224,
+          "y": 208,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_BIKER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE16_BIKER2"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "SPRITE_BIKER",
+          "type": "npc",
+          "x": 176,
+          "y": 192,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_BIKER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "UP"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE16_BIKER3"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "SPRITE_BIKER",
+          "type": "npc",
+          "x": 144,
+          "y": 176,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_BIKER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE16_BIKER4"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "SPRITE_BIKER",
+          "type": "npc",
+          "x": 96,
+          "y": 160,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_BIKER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE16_BIKER5"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "SPRITE_BIKER",
+          "type": "npc",
+          "x": 48,
+          "y": 192,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_BIKER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE16_BIKER6"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "SPRITE_SNORLAX",
+          "type": "npc",
+          "x": 416,
+          "y": 160,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_SNORLAX"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_ROUTE16_SNORLAX"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "OVERWORLD",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 128,
+      "columns": 16,
+      "image": "../../tilesets/rendered/overworld.png",
+      "imagewidth": 512,
+      "imageheight": 256
+    }
+  ]
+}

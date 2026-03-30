@@ -1,0 +1,1200 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 20,
+  "height": 18,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "OVERWORLD"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 15
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 40
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 36
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 20,
+      "height": 18,
+      "data": [
+        83,
+        83,
+        83,
+        83,
+        83,
+        80,
+        83,
+        83,
+        83,
+        50,
+        50,
+        13,
+        14,
+        15,
+        13,
+        14,
+        14,
+        15,
+        57,
+        58,
+        79,
+        57,
+        58,
+        57,
+        58,
+        57,
+        58,
+        50,
+        50,
+        50,
+        50,
+        17,
+        18,
+        19,
+        17,
+        18,
+        18,
+        19,
+        17,
+        1,
+        79,
+        17,
+        1,
+        61,
+        62,
+        17,
+        1,
+        120,
+        87,
+        120,
+        50,
+        50,
+        120,
+        87,
+        120,
+        50,
+        120,
+        87,
+        120,
+        78,
+        79,
+        74,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        73,
+        78,
+        79,
+        40,
+        57,
+        58,
+        57,
+        58,
+        57,
+        58,
+        50,
+        50,
+        50,
+        50,
+        33,
+        34,
+        57,
+        58,
+        57,
+        58,
+        40,
+        78,
+        11,
+        40,
+        17,
+        1,
+        17,
+        1,
+        61,
+        62,
+        33,
+        14,
+        14,
+        34,
+        125,
+        116,
+        17,
+        1,
+        17,
+        1,
+        40,
+        78,
+        11,
+        39,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        105,
+        128,
+        128,
+        106,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        35,
+        78,
+        11,
+        40,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        105,
+        128,
+        128,
+        106,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        40,
+        78,
+        2,
+        40,
+        50,
+        33,
+        34,
+        33,
+        34,
+        50,
+        105,
+        128,
+        128,
+        106,
+        33,
+        34,
+        33,
+        34,
+        33,
+        34,
+        40,
+        2,
+        87,
+        35,
+        50,
+        105,
+        106,
+        105,
+        106,
+        50,
+        105,
+        128,
+        128,
+        106,
+        105,
+        106,
+        105,
+        106,
+        105,
+        106,
+        39,
+        87,
+        11,
+        40,
+        87,
+        56,
+        127,
+        56,
+        127,
+        87,
+        56,
+        59,
+        126,
+        127,
+        56,
+        127,
+        56,
+        127,
+        56,
+        127,
+        40,
+        78,
+        11,
+        39,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        35,
+        78,
+        79,
+        40,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        86,
+        40,
+        78,
+        79,
+        40,
+        57,
+        58,
+        33,
+        34,
+        57,
+        58,
+        57,
+        58,
+        57,
+        58,
+        50,
+        50,
+        33,
+        34,
+        57,
+        58,
+        40,
+        78,
+        79,
+        40,
+        17,
+        1,
+        125,
+        115,
+        17,
+        1,
+        17,
+        1,
+        17,
+        1,
+        120,
+        87,
+        125,
+        127,
+        17,
+        1,
+        40,
+        78,
+        79,
+        69,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        36,
+        70,
+        78,
+        33,
+        34,
+        57,
+        58,
+        57,
+        58,
+        57,
+        58,
+        57,
+        58,
+        50,
+        50,
+        57,
+        58,
+        57,
+        58,
+        57,
+        58,
+        33,
+        34,
+        56,
+        127,
+        17,
+        1,
+        17,
+        1,
+        17,
+        1,
+        17,
+        1,
+        11,
+        120,
+        17,
+        1,
+        17,
+        1,
+        17,
+        1,
+        56,
+        127
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_COPYCATS_HOUSE_1F",
+          "type": "warp",
+          "x": 112,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "CopycatsHouse1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_FIGHTING_DOJO",
+          "type": "warp",
+          "x": 416,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "FightingDojo"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "warp_SAFFRON_GYM",
+          "type": "warp",
+          "x": 544,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SaffronGym"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "warp_SAFFRON_PIDGEY_HOUSE",
+          "type": "warp",
+          "x": 208,
+          "y": 176,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SaffronPidgeyHouse"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "warp_SAFFRON_MART",
+          "type": "warp",
+          "x": 400,
+          "y": 176,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SaffronMart"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "warp_SILPH_CO_1F",
+          "type": "warp",
+          "x": 288,
+          "y": 336,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SilphCo1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "warp_SAFFRON_POKECENTER",
+          "type": "warp",
+          "x": 144,
+          "y": 464,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SaffronPokecenter"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "warp_MR_PSYCHICS_HOUSE",
+          "type": "warp",
+          "x": 464,
+          "y": 464,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "MrPsychicsHouse"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "TEXT_SAFFRONCITY_SIGN",
+          "type": "sign",
+          "x": 272,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "TEXT_SAFFRONCITY_FIGHTING_DOJO_SIGN",
+          "type": "sign",
+          "x": 432,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_FIGHTING_DOJO_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "TEXT_SAFFRONCITY_GYM_SIGN",
+          "type": "sign",
+          "x": 560,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_GYM_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "TEXT_SAFFRONCITY_MART_SIGN",
+          "type": "sign",
+          "x": 416,
+          "y": 176,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_MART_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "TEXT_SAFFRONCITY_TRAINER_TIPS1",
+          "type": "sign",
+          "x": 624,
+          "y": 304,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_TRAINER_TIPS1"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "TEXT_SAFFRONCITY_TRAINER_TIPS2",
+          "type": "sign",
+          "x": 80,
+          "y": 336,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_TRAINER_TIPS2"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "TEXT_SAFFRONCITY_SILPH_CO_SIGN",
+          "type": "sign",
+          "x": 240,
+          "y": 336,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_SILPH_CO_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "TEXT_SAFFRONCITY_POKECENTER_SIGN",
+          "type": "sign",
+          "x": 160,
+          "y": 464,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_POKECENTER_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "TEXT_SAFFRONCITY_MR_PSYCHICS_HOUSE_SIGN",
+          "type": "sign",
+          "x": 432,
+          "y": 464,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_MR_PSYCHICS_HOUSE_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "TEXT_SAFFRONCITY_SILPH_CO_LATEST_PRODUCT_SIGN",
+          "type": "sign",
+          "x": 16,
+          "y": 304,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_SILPH_CO_LATEST_PRODUCT_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "SPRITE_ROCKET",
+          "type": "npc",
+          "x": 112,
+          "y": 96,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_ROCKET"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_ROCKET1"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "SPRITE_ROCKET",
+          "type": "npc",
+          "x": 320,
+          "y": 128,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_ROCKET"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT_RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_ROCKET2"
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "SPRITE_ROCKET",
+          "type": "npc",
+          "x": 544,
+          "y": 64,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_ROCKET"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_ROCKET3"
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "SPRITE_ROCKET",
+          "type": "npc",
+          "x": 208,
+          "y": 192,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_ROCKET"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_ROCKET4"
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "SPRITE_ROCKET",
+          "type": "npc",
+          "x": 176,
+          "y": 400,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_ROCKET"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT_RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_ROCKET5"
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "SPRITE_ROCKET",
+          "type": "npc",
+          "x": 512,
+          "y": 208,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_ROCKET"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT_RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_ROCKET6"
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "SPRITE_ROCKET",
+          "type": "npc",
+          "x": 288,
+          "y": 480,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_ROCKET"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT_RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_ROCKET7"
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "SPRITE_SCIENTIST",
+          "type": "npc",
+          "x": 128,
+          "y": 224,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_SCIENTIST"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "ANY_DIR"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_SCIENTIST"
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "name": "SPRITE_SILPH_WORKER_M",
+          "type": "npc",
+          "x": 368,
+          "y": 368,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_SILPH_WORKER_M"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_SILPH_WORKER_M"
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "name": "SPRITE_SILPH_WORKER_F",
+          "type": "npc",
+          "x": 272,
+          "y": 480,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_SILPH_WORKER_F"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT_RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_SILPH_WORKER_F"
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "name": "SPRITE_GENTLEMAN",
+          "type": "npc",
+          "x": 480,
+          "y": 192,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_GENTLEMAN"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_GENTLEMAN"
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "name": "SPRITE_BIRD",
+          "type": "npc",
+          "x": 496,
+          "y": 192,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_BIRD"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_PIDGEOT"
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "name": "SPRITE_ROCKER",
+          "type": "npc",
+          "x": 288,
+          "y": 128,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_ROCKER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "UP"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_ROCKER"
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "name": "SPRITE_ROCKET",
+          "type": "npc",
+          "x": 288,
+          "y": 352,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_ROCKET"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_SAFFRONCITY_ROCKET8"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "OVERWORLD",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 128,
+      "columns": 16,
+      "image": "../../tilesets/rendered/overworld.png",
+      "imagewidth": 512,
+      "imageheight": 256
+    }
+  ]
+}

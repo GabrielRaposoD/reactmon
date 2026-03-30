@@ -1,0 +1,334 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 7,
+  "height": 4,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "POKECENTER"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 0
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 14
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 8
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 7,
+      "height": 4,
+      "data": [
+        33,
+        17,
+        2,
+        3,
+        13,
+        14,
+        14,
+        40,
+        5,
+        6,
+        8,
+        8,
+        35,
+        36,
+        9,
+        16,
+        16,
+        16,
+        16,
+        16,
+        28,
+        15,
+        11,
+        12,
+        15,
+        16,
+        16,
+        15
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 48,
+          "y": 112,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 64,
+          "y": 112,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "SPRITE_NURSE",
+          "type": "npc",
+          "x": 48,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_NURSE"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_PEWTERPOKECENTER_NURSE"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "SPRITE_GENTLEMAN",
+          "type": "npc",
+          "x": 176,
+          "y": 112,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_GENTLEMAN"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_PEWTERPOKECENTER_GENTLEMAN"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "SPRITE_JIGGLYPUFF",
+          "type": "npc",
+          "x": 16,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_JIGGLYPUFF"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_PEWTERPOKECENTER_JIGGLYPUFF"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "SPRITE_LINK_RECEPTIONIST",
+          "type": "npc",
+          "x": 176,
+          "y": 32,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_LINK_RECEPTIONIST"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_PEWTERPOKECENTER_LINK_RECEPTIONIST"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "SPRITE_COOLTRAINER_F",
+          "type": "npc",
+          "x": 64,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_COOLTRAINER_F"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "UP"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_PEWTERPOKECENTER_COOLTRAINER_F"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "SPRITE_CHANSEY",
+          "type": "npc",
+          "x": 64,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_CHANSEY"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_PEWTERPOKECENTER_CHANSEY"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "POKECENTER",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 40,
+      "columns": 16,
+      "image": "../../tilesets/rendered/pokecenter.png",
+      "imagewidth": 512,
+      "imageheight": 96
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 5,
+  "height": 4,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "FOREST_GATE"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 10
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 10
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 8
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 5,
+      "height": 4,
+      "data": [
+        95,
+        93,
+        116,
+        93,
+        96,
+        59,
+        1,
+        1,
+        99,
+        100,
+        59,
+        1,
+        1,
+        97,
+        101,
+        59,
+        1,
+        12,
+        98,
+        102
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_VIRIDIAN_FOREST",
+          "type": "warp",
+          "x": 64,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "ViridianForest"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_VIRIDIAN_FOREST",
+          "type": "warp",
+          "x": 80,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "ViridianForest"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 64,
+          "y": 112,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "warp_LAST_MAP",
+          "type": "warp",
+          "x": 80,
+          "y": 112,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "LAST_MAP"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "SPRITE_GIRL",
+          "type": "npc",
+          "x": 128,
+          "y": 64,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_GIRL"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VIRIDIANFORESTSOUTHGATE_GIRL"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "SPRITE_LITTLE_GIRL",
+          "type": "npc",
+          "x": 32,
+          "y": 64,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_LITTLE_GIRL"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "UP_DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_VIRIDIANFORESTSOUTHGATE_LITTLE_GIRL"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "FOREST_GATE",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 128,
+      "columns": 16,
+      "image": "../../tilesets/rendered/gate.png",
+      "imagewidth": 512,
+      "imageheight": 256
+    }
+  ]
+}

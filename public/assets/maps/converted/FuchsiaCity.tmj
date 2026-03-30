@@ -1,0 +1,1161 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 20,
+  "height": 18,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "OVERWORLD"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 15
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 40
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 36
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,0,0,0,0,0,0,1,0,0,0,1,1,1,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,1,0,0,0,0,0,0,1,0,0,0,1,1,1,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,0,0,0,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,0,0,0,0,0,1,0,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,0,0,0,0,0,1,0,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,1,1,0,0,1,1,1,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 20,
+      "height": 18,
+      "data": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        33,
+        14,
+        34,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        123,
+        112,
+        112,
+        112,
+        112,
+        112,
+        123,
+        56,
+        59,
+        127,
+        123,
+        112,
+        112,
+        112,
+        112,
+        112,
+        112,
+        123,
+        16,
+        16,
+        111,
+        30,
+        31,
+        16,
+        117,
+        117,
+        110,
+        87,
+        86,
+        120,
+        111,
+        2,
+        2,
+        16,
+        2,
+        2,
+        2,
+        110,
+        16,
+        16,
+        111,
+        120,
+        87,
+        16,
+        120,
+        87,
+        110,
+        123,
+        112,
+        112,
+        97,
+        120,
+        87,
+        16,
+        120,
+        87,
+        120,
+        110,
+        16,
+        16,
+        123,
+        123,
+        123,
+        123,
+        123,
+        123,
+        123,
+        111,
+        123,
+        123,
+        123,
+        123,
+        123,
+        123,
+        123,
+        123,
+        123,
+        123,
+        16,
+        16,
+        123,
+        33,
+        34,
+        112,
+        112,
+        112,
+        112,
+        97,
+        123,
+        33,
+        14,
+        34,
+        111,
+        109,
+        109,
+        109,
+        110,
+        123,
+        16,
+        16,
+        123,
+        125,
+        116,
+        123,
+        123,
+        123,
+        123,
+        123,
+        123,
+        56,
+        59,
+        127,
+        97,
+        120,
+        87,
+        120,
+        110,
+        123,
+        16,
+        16,
+        112,
+        112,
+        112,
+        112,
+        112,
+        122,
+        123,
+        123,
+        111,
+        87,
+        86,
+        87,
+        123,
+        123,
+        123,
+        123,
+        123,
+        112,
+        16,
+        2,
+        2,
+        104,
+        32,
+        32,
+        32,
+        110,
+        123,
+        123,
+        111,
+        2,
+        86,
+        2,
+        109,
+        109,
+        109,
+        109,
+        109,
+        50,
+        50,
+        79,
+        2,
+        21,
+        108,
+        108,
+        108,
+        81,
+        83,
+        83,
+        97,
+        2,
+        86,
+        2,
+        120,
+        120,
+        120,
+        120,
+        50,
+        50,
+        16,
+        79,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        86,
+        96,
+        117,
+        30,
+        32,
+        31,
+        28,
+        111,
+        16,
+        79,
+        63,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        60,
+        96,
+        117,
+        11,
+        11,
+        11,
+        28,
+        111,
+        16,
+        79,
+        37,
+        33,
+        14,
+        34,
+        88,
+        88,
+        88,
+        88,
+        33,
+        34,
+        38,
+        96,
+        57,
+        58,
+        57,
+        58,
+        28,
+        111,
+        16,
+        79,
+        89,
+        125,
+        18,
+        127,
+        3,
+        4,
+        49,
+        4,
+        125,
+        115,
+        90,
+        50,
+        61,
+        62,
+        61,
+        62,
+        50,
+        111,
+        16,
+        79,
+        89,
+        9,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        90,
+        96,
+        87,
+        120,
+        50,
+        120,
+        28,
+        111,
+        16,
+        79,
+        91,
+        8,
+        8,
+        93,
+        112,
+        112,
+        112,
+        93,
+        8,
+        8,
+        92,
+        2,
+        2,
+        2,
+        2,
+        50,
+        50,
+        111,
+        16,
+        81,
+        83,
+        83,
+        83,
+        83,
+        63,
+        64,
+        60,
+        117,
+        117,
+        117,
+        117,
+        81,
+        83,
+        83,
+        83,
+        83,
+        83,
+        111,
+        16,
+        50,
+        50,
+        50,
+        50,
+        50,
+        41,
+        45,
+        42,
+        50,
+        50,
+        50,
+        50,
+        63,
+        64,
+        60,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_FUCHSIA_MART",
+          "type": "warp",
+          "x": 80,
+          "y": 208,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "FuchsiaMart"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_FUCHSIA_BILLS_GRANDPAS_HOUSE",
+          "type": "warp",
+          "x": 176,
+          "y": 432,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "FuchsiaBillsGrandpasHouse"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "warp_FUCHSIA_POKECENTER",
+          "type": "warp",
+          "x": 304,
+          "y": 432,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "FuchsiaPokecenter"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "warp_WARDENS_HOUSE",
+          "type": "warp",
+          "x": 432,
+          "y": 432,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "WardensHouse"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "warp_SAFARI_ZONE_GATE",
+          "type": "warp",
+          "x": 288,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "SafariZoneGate"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "warp_FUCHSIA_GYM",
+          "type": "warp",
+          "x": 80,
+          "y": 432,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "FuchsiaGym"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "warp_FUCHSIA_MEETING_ROOM",
+          "type": "warp",
+          "x": 352,
+          "y": 208,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "FuchsiaMeetingRoom"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "warp_FUCHSIA_GOOD_ROD_HOUSE",
+          "type": "warp",
+          "x": 496,
+          "y": 432,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "FuchsiaGoodRodHouse"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "warp_FUCHSIA_GOOD_ROD_HOUSE",
+          "type": "warp",
+          "x": 496,
+          "y": 384,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "FuchsiaGoodRodHouse"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "TEXT_FUCHSIACITY_SIGN1",
+          "type": "sign",
+          "x": 240,
+          "y": 368,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_SIGN1"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "TEXT_FUCHSIACITY_SIGN2",
+          "type": "sign",
+          "x": 400,
+          "y": 240,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_SIGN2"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "TEXT_FUCHSIACITY_SAFARI_GAME_SIGN",
+          "type": "sign",
+          "x": 272,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_SAFARI_GAME_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "TEXT_FUCHSIACITY_MART_SIGN",
+          "type": "sign",
+          "x": 96,
+          "y": 208,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_MART_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "TEXT_FUCHSIACITY_POKECENTER_SIGN",
+          "type": "sign",
+          "x": 320,
+          "y": 432,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_POKECENTER_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "TEXT_FUCHSIACITY_WARDENS_HOME_SIGN",
+          "type": "sign",
+          "x": 432,
+          "y": 464,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_WARDENS_HOME_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "TEXT_FUCHSIACITY_SAFARI_ZONE_SIGN",
+          "type": "sign",
+          "x": 336,
+          "y": 240,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_SAFARI_ZONE_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "TEXT_FUCHSIACITY_GYM_SIGN",
+          "type": "sign",
+          "x": 80,
+          "y": 464,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_GYM_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "TEXT_FUCHSIACITY_CHANSEY_SIGN",
+          "type": "sign",
+          "x": 528,
+          "y": 112,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_CHANSEY_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "TEXT_FUCHSIACITY_VOLTORB_SIGN",
+          "type": "sign",
+          "x": 432,
+          "y": 112,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_VOLTORB_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "TEXT_FUCHSIACITY_KANGASKHAN_SIGN",
+          "type": "sign",
+          "x": 208,
+          "y": 112,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_KANGASKHAN_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "TEXT_FUCHSIACITY_SLOWPOKE_SIGN",
+          "type": "sign",
+          "x": 496,
+          "y": 208,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_SLOWPOKE_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "TEXT_FUCHSIACITY_LAPRAS_SIGN",
+          "type": "sign",
+          "x": 208,
+          "y": 240,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_LAPRAS_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "TEXT_FUCHSIACITY_FOSSIL_SIGN",
+          "type": "sign",
+          "x": 112,
+          "y": 112,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_FOSSIL_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "SPRITE_YOUNGSTER",
+          "type": "npc",
+          "x": 160,
+          "y": 192,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_YOUNGSTER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT_RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_YOUNGSTER1"
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "SPRITE_GAMBLER",
+          "type": "npc",
+          "x": 448,
+          "y": 272,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_GAMBLER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT_RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_GAMBLER"
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "SPRITE_FISHER",
+          "type": "npc",
+          "x": 480,
+          "y": 224,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_FISHER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_ERIK"
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "name": "SPRITE_YOUNGSTER",
+          "type": "npc",
+          "x": 384,
+          "y": 128,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_YOUNGSTER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "UP"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_YOUNGSTER2"
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "name": "SPRITE_CHANSEY",
+          "type": "npc",
+          "x": 496,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_CHANSEY"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_CHANSEY"
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "name": "SPRITE_POKE_BALL",
+          "type": "npc",
+          "x": 400,
+          "y": 96,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_POKE_BALL"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_VOLTORB"
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "name": "SPRITE_MONSTER",
+          "type": "npc",
+          "x": 192,
+          "y": 96,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_MONSTER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT_RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_KANGASKHAN"
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "name": "SPRITE_MONSTER",
+          "type": "npc",
+          "x": 480,
+          "y": 192,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_MONSTER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT_RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_SLOWPOKE"
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "name": "SPRITE_SEEL",
+          "type": "npc",
+          "x": 128,
+          "y": 272,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_SEEL"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "ANY_DIR"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_LAPRAS"
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "name": "SPRITE_FOSSIL",
+          "type": "npc",
+          "x": 96,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_FOSSIL"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_FUCHSIACITY_FOSSIL"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "OVERWORLD",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 128,
+      "columns": 16,
+      "image": "../../tilesets/rendered/overworld.png",
+      "imagewidth": 512,
+      "imageheight": 256
+    }
+  ]
+}

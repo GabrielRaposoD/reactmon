@@ -1,0 +1,302 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 4,
+  "height": 4,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "REDS_HOUSE_2"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 10
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 8
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 8
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 4,
+      "height": 4,
+      "data": [
+        17,
+        18,
+        6,
+        9,
+        16,
+        16,
+        16,
+        16,
+        16,
+        14,
+        16,
+        16,
+        13,
+        16,
+        16,
+        19
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_COPYCATS_HOUSE_1F",
+          "type": "warp",
+          "x": 112,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "CopycatsHouse1F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "TEXT_COPYCATSHOUSE2F_SNES",
+          "type": "sign",
+          "x": 48,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_COPYCATSHOUSE2F_SNES"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "TEXT_COPYCATSHOUSE2F_PC",
+          "type": "sign",
+          "x": 0,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_COPYCATSHOUSE2F_PC"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "SPRITE_BRUNETTE_GIRL",
+          "type": "npc",
+          "x": 64,
+          "y": 48,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_BRUNETTE_GIRL"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "ANY_DIR"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_COPYCATSHOUSE2F_COPYCAT"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "SPRITE_BIRD",
+          "type": "npc",
+          "x": 64,
+          "y": 96,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_BIRD"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "WALK"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "LEFT_RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_COPYCATSHOUSE2F_DODUO"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "SPRITE_MONSTER",
+          "type": "npc",
+          "x": 80,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_MONSTER"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_COPYCATSHOUSE2F_MONSTER"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "SPRITE_BIRD",
+          "type": "npc",
+          "x": 32,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_BIRD"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_COPYCATSHOUSE2F_BIRD"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "SPRITE_FAIRY",
+          "type": "npc",
+          "x": 16,
+          "y": 96,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_FAIRY"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_COPYCATSHOUSE2F_FAIRY"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "REDS_HOUSE_2",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 19,
+      "columns": 16,
+      "image": "../../tilesets/rendered/reds_house.png",
+      "imagewidth": 512,
+      "imageheight": 64
+    }
+  ]
+}

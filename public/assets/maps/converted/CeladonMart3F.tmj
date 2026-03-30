@@ -1,0 +1,528 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 10,
+  "height": 4,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "properties": [
+    {
+      "name": "tilesetName",
+      "type": "string",
+      "value": "LOBBY"
+    },
+    {
+      "name": "borderBlock",
+      "type": "int",
+      "value": 15
+    },
+    {
+      "name": "collisionGridWidth",
+      "type": "int",
+      "value": 20
+    },
+    {
+      "name": "collisionGridHeight",
+      "type": "int",
+      "value": 8
+    },
+    {
+      "name": "collisionGrid",
+      "type": "string",
+      "value": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,1,0,0,0,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,1,0,0,0,1,1,1,1"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 10,
+      "height": 4,
+      "data": [
+        13,
+        14,
+        37,
+        37,
+        37,
+        37,
+        3,
+        38,
+        4,
+        15,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        19,
+        12,
+        5,
+        6,
+        7,
+        12,
+        12,
+        17,
+        18,
+        18,
+        18,
+        12,
+        5,
+        6,
+        7,
+        12,
+        12,
+        21,
+        12,
+        11,
+        11
+      ],
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "objects",
+      "type": "objectgroup",
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "warp_CELADON_MART_4F",
+          "type": "warp",
+          "x": 192,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "CeladonMart4F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "warp_CELADON_MART_2F",
+          "type": "warp",
+          "x": 256,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "CeladonMart2F"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "warp_CELADON_MART_ELEVATOR",
+          "type": "warp",
+          "x": 16,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "destMap",
+              "type": "string",
+              "value": "CeladonMartElevator"
+            },
+            {
+              "name": "destWarpId",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "TEXT_CELADONMART3F_SNES1",
+          "type": "sign",
+          "x": 32,
+          "y": 64,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMART3F_SNES1"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "TEXT_CELADONMART3F_RPG",
+          "type": "sign",
+          "x": 48,
+          "y": 64,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMART3F_RPG"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "TEXT_CELADONMART3F_SNES2",
+          "type": "sign",
+          "x": 80,
+          "y": 64,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMART3F_SNES2"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "TEXT_CELADONMART3F_SPORTS_GAME",
+          "type": "sign",
+          "x": 96,
+          "y": 64,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMART3F_SPORTS_GAME"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "TEXT_CELADONMART3F_SNES3",
+          "type": "sign",
+          "x": 32,
+          "y": 96,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMART3F_SNES3"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "TEXT_CELADONMART3F_PUZZLE_GAME",
+          "type": "sign",
+          "x": 48,
+          "y": 96,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMART3F_PUZZLE_GAME"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "TEXT_CELADONMART3F_SNES4",
+          "type": "sign",
+          "x": 80,
+          "y": 96,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMART3F_SNES4"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "TEXT_CELADONMART3F_FIGHTING_GAME",
+          "type": "sign",
+          "x": 96,
+          "y": 96,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMART3F_FIGHTING_GAME"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "TEXT_CELADONMART3F_CURRENT_FLOOR_SIGN",
+          "type": "sign",
+          "x": 224,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMART3F_CURRENT_FLOOR_SIGN"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "TEXT_CELADONMART3F_POKEMON_POSTER1",
+          "type": "sign",
+          "x": 64,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMART3F_POKEMON_POSTER1"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "TEXT_CELADONMART3F_POKEMON_POSTER2",
+          "type": "sign",
+          "x": 96,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMART3F_POKEMON_POSTER2"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "TEXT_CELADONMART3F_POKEMON_POSTER3",
+          "type": "sign",
+          "x": 160,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMART3F_POKEMON_POSTER3"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "SPRITE_CLERK",
+          "type": "npc",
+          "x": 256,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_CLERK"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "NONE"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMART3F_CLERK"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "SPRITE_GAMEBOY_KID",
+          "type": "npc",
+          "x": 176,
+          "y": 96,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_GAMEBOY_KID"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "RIGHT"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMART3F_GAMEBOY_KID1"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "SPRITE_GAMEBOY_KID",
+          "type": "npc",
+          "x": 112,
+          "y": 32,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_GAMEBOY_KID"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMART3F_GAMEBOY_KID2"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "SPRITE_GAMEBOY_KID",
+          "type": "npc",
+          "x": 128,
+          "y": 32,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_GAMEBOY_KID"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "DOWN"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMART3F_GAMEBOY_KID3"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "SPRITE_LITTLE_BOY",
+          "type": "npc",
+          "x": 32,
+          "y": 80,
+          "width": 16,
+          "height": 16,
+          "properties": [
+            {
+              "name": "sprite",
+              "type": "string",
+              "value": "SPRITE_LITTLE_BOY"
+            },
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "STAY"
+            },
+            {
+              "name": "direction",
+              "type": "string",
+              "value": "UP"
+            },
+            {
+              "name": "textId",
+              "type": "string",
+              "value": "TEXT_CELADONMART3F_LITTLE_BOY"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "LOBBY",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 79,
+      "columns": 16,
+      "image": "../../tilesets/rendered/lobby.png",
+      "imagewidth": 512,
+      "imageheight": 160
+    }
+  ]
+}
